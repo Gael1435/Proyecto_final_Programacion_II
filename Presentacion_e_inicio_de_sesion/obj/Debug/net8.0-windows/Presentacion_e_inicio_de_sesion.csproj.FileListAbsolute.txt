@@ -31,3 +31,4 @@ C:\Users\azfaj\OneDrive\Escritorio\POO\Presentacion_e_inicio_de_sesion\Presentac
 C:\Users\azfaj\OneDrive\Escritorio\POO\Presentacion_e_inicio_de_sesion\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
 C:\Users\azfaj\OneDrive\Escritorio\POO\Presentacion_e_inicio_de_sesion\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.csproj.AssemblyReference.cache
 C:\Users\azfaj\OneDrive\Escritorio\POO\Presentacion_e_inicio_de_sesion\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presenta.0EBFC19F.Up2Date
+C:\Users\azfaj\OneDrive\Escritorio\POO\Presentacion_e_inicio_de_sesion\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.sourcelink.json

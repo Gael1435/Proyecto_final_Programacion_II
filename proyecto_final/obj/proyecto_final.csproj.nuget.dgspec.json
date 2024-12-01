@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\proyecto_final.csproj": {}
+    "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\proyecto_final.csproj": {
+    "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\proyecto_final.csproj",
+        "projectUniqueName": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final.csproj",
         "projectName": "proyecto_final",
-        "projectPath": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\proyecto_final.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\obj\\",
+        "projectPath": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final.csproj",
+        "packagesPath": "C:\\Users\\Kuted\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Kuted\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

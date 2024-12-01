@@ -32,7 +32,7 @@ namespace Presentacion_e_inicio_de_sesion
 
         public void Connect() //Funcion que verifica la correcta conexion de el programa con la base de datos y la conecta
         {
-            string cadena = "Server=localhost; Database=usuarios; User=root; Password=; SslMode=none;";
+            string cadena = "Server=localhost; Database=pasteleria; User=root; Password=; SslMode=none;";
             try
             {
                 conexion = new MySqlConnection(cadena);
@@ -61,10 +61,40 @@ namespace Presentacion_e_inicio_de_sesion
             lector = comando.ExecuteReader();
 
 
-            //***AQUI SE DEBE AÑADIR LA LLAMADA A EL OTRO FORMULARIO QUE YA SERIA EL MAIN Y AQUI TAMBIEN SE EVALUA SI ES ADMIN O GUESS
+            //***AQUI VIENE LA LLAMADA A LOS OTROS FORMULARIOS QUE YA SERIAN EL MAIN Y AQUI TAMBIEN SE EVALUA SI ES ADMIN O GUEST
             if (lector.HasRows == true)
             {
-                MessageBox.Show("Bienvenido");
+                lector.Read();
+
+                string tipo = lector["Tipo"].ToString();
+                string nombreUsuario = lector["Nombre Completo"].ToString();
+
+                switch (tipo)
+                {
+                    case "admin":
+                        MessageBox.Show("Has ingresado como un Administrador"); //le mueve brandon
+                        break;
+
+                    case "usuario":
+                        MessageBox.Show("Has ingresado como un Usuario"); //le mueve bruno
+
+                        Form3 f3 = new Form3(nombreUsuario);
+                        this.Hide();
+                        f3.ShowDialog();
+                        this.Show();
+
+                        break;
+
+                    case "guest":
+                        MessageBox.Show("Has ingresado como un Invitado");
+                        break;
+
+                    default:
+                        MessageBox.Show("Usuario indefinido");
+                        break;
+                }
+                lector.Close();
+                //MessageBox.Show("Bienvenido");
             }
             else
             {

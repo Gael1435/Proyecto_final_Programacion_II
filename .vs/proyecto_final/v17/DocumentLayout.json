@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\",
+  "WorkspaceRootPath": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{74960D77-35D8-462C-B824-9D52ADB4E741}|proyecto_final\\proyecto_final.csproj|C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{74960D77-35D8-462C-B824-9D52ADB4E741}|proyecto_final\\proyecto_final.csproj|C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{74960D77-35D8-462C-B824-9D52ADB4E741}|proyecto_final\\proyecto_final.csproj|solutionrelative:proyecto_final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74960D77-35D8-462C-B824-9D52ADB4E741}|proyecto_final\\proyecto_final.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final\\proyecto_final\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74960D77-35D8-462C-B824-9D52ADB4E741}|proyecto_final\\proyecto_final.csproj|c:\\users\\kuted\\source\\prograazael\\proyecto_final_programacion_ii\\proyecto_final\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74960D77-35D8-462C-B824-9D52ADB4E741}|proyecto_final\\proyecto_final.csproj|solutionrelative:proyecto_final\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74960D77-35D8-462C-B824-9D52ADB4E741}|proyecto_final\\proyecto_final.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final\\proyecto_final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74960D77-35D8-462C-B824-9D52ADB4E741}|proyecto_final\\proyecto_final.csproj|c:\\users\\kuted\\source\\prograazael\\proyecto_final_programacion_ii\\proyecto_final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74960D77-35D8-462C-B824-9D52ADB4E741}|proyecto_final\\proyecto_final.csproj|solutionrelative:proyecto_final\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,6 +26,10 @@
           "Children": [
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
@@ -33,16 +37,12 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\Form1.cs",
               "RelativeDocumentMoniker": "proyecto_final\\Form1.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\Form1.cs",
+              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\Form1.cs",
               "RelativeToolTip": "proyecto_final\\Form1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -53,11 +53,11 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\Conexion.cs",
               "RelativeDocumentMoniker": "proyecto_final\\Conexion.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\Conexion.cs",
+              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\Conexion.cs",
               "RelativeToolTip": "proyecto_final\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwAUAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-26T23:09:31.301Z",
               "EditorCaption": ""
@@ -66,9 +66,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\Form1.cs",
               "RelativeDocumentMoniker": "proyecto_final\\Form1.cs",
-              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\proyecto_final\\proyecto_final\\Form1.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\proyecto_final\\Form1.cs [Dise\u00F1o]",
               "RelativeToolTip": "proyecto_final\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-23T03:15:24.15Z",

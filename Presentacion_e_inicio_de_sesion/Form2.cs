@@ -176,5 +176,13 @@ namespace Presentacion_e_inicio_de_sesion
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form3 f3 = new Form3();
+            this.Hide();
+            f3.ShowDialog();
+            this.Show();
+        }
     }
 }

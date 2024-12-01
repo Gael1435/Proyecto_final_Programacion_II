@@ -63,60 +63,100 @@ namespace Presentacion_e_inicio_de_sesion
                 }
                 reader.Close();
 
-                for (int i = 0; i < productos.Count; i++) //cuenta hasta el maximo de productos
+                //logica para acomodar los objetos
+                int maxPorFila = 5;
+                int espHor = 230;
+                int espVer = 380; 
+                int inicioX = 40;
+                int inicioY = 150;
+
+                //aqui es en donde tiene que entrar a juego un valor sacado desde la pestaña de admin para saber que productos aparecen
+                for (int i = 0; i < productos.Count; i++) //cuenta hasta el maximo de productos 
                 {
+                    int fila = i / maxPorFila;
+                    int columna = i % maxPorFila;
+
                     Productos producto = productos[i];
 
-                    TextBox txtId = new TextBox
-                    {
-                        Text = producto.Id.ToString(),
-                        Location = new Point(156 - 55, 142 + (i * 100)),
-                        Multiline = true,
-                        Size = new Size(32, 50),
-                    };
-                    TextBox txtDescripcion = new TextBox
-                    {
-                        Text = producto.Descripcion,
-                        Location = new Point(193 - 55, 142 + (i * 100)),
-                        Size = new Size(435, 50),
-                        Multiline = true,
+                    string nombrePostre = Path.GetFileNameWithoutExtension(producto.Imagen); //para el nombre
 
-                    };
-                    TextBox txtPrecio = new TextBox
+                    Label txtPrecio = new Label
                     {
-                        Text = producto.Precio.ToString(),
-                        Location = new Point(634 - 55, 142 + (i * 100)),
-                        Multiline = true,
-                        Size = new Size(90, 50),
+                        Text = "$" + producto.Precio.ToString(),
+                        Size = new Size(90, 30),
                     };
-                    TextBox txtExistencias = new TextBox
+                    Label txtExistencias = new Label
                     {
                         Text = producto.Existencias.ToString(),
-                        Location = new Point(730 - 55, 142 + (i * 100)),
-                        Multiline = true,
-                        Size = new Size(90, 50),
+                        Size = new Size(40, 30),
                     };
-                    CheckBox check = new CheckBox
+                    Button btn = new Button //boton de descripcion
                     {
-                        CheckAlign = ContentAlignment.MiddleCenter,
-                        Size = new Size(35, 35),
-                        Location = new Point(771, 150 + (i * 100)),
-
+                        Size= new Size(50,50)
                     };
+                    Label nomPostre = new Label
+                    {
+                        Text= nombrePostre.ToString(),
+                        Size = new Size(150,50)
+                    };
+                    NumericUpDown numCantidad = new NumericUpDown
+                    {
+                        Size = new Size(60, 50)
+                    };
+
+                    btn.Click += (sender, e) => MostrarDescripcion(producto.Descripcion);
+                    btn.Location = new Point(
+                        inicioX + (columna * espHor) + 150,
+                        inicioY + (fila * espVer) - 60
+                    );
+
+                    nomPostre.Location = new Point(
+                        inicioX + (columna * espHor),
+                        inicioY + (fila * espVer) - 58
+                    );
+
+                    txtPrecio.Location = new Point(
+                        inicioX + (columna * espHor),
+                        inicioY + (fila * espVer) + -30
+                    );
+
+                    txtExistencias.Location = new Point(
+                        inicioX + (columna * espHor) + 155,
+                        inicioY + (fila * espVer) + 165
+                    );
+
+                    numCantidad.Location = new Point(
+                        inicioX + (columna * espHor) + 75,
+                        inicioY + (fila * espVer) + 210
+                    );
+
 
                     //agregar los textbox al formulario
-                    this.Controls.Add(txtId);
-                    this.Controls.Add(txtDescripcion);
                     this.Controls.Add(txtPrecio);
                     this.Controls.Add(txtExistencias);
-                    this.Controls.Add(check);
+                    this.Controls.Add(btn);
+                    this.Controls.Add(nomPostre);
+                    this.Controls.Add(numCantidad);
 
-                    txtId.BringToFront();
-                    txtDescripcion.BringToFront();
-                    txtPrecio.BringToFront();
-                    txtExistencias.BringToFront();
-                    check.BringToFront();
-                    check.BackColor = Color.WhiteSmoke;
+
+                    btn.BringToFront();
+                    btn.Image = Properties.Resources.ImgDesc_2;
+                    btn.FlatAppearance.BorderSize = 0;
+                    btn.FlatStyle = FlatStyle.Flat;
+
+                    nomPostre.TextAlign = ContentAlignment.TopLeft;
+                    nomPostre.Font = new Font("Yu Gothic Medium", 9, FontStyle.Bold);
+
+                    txtPrecio.Font = new Font("Yu Gothic Medium", 12, FontStyle.Bold);
+                    txtPrecio.ForeColor = Color.Green;
+
+                    txtExistencias.TextAlign = ContentAlignment.MiddleCenter;
+                    txtExistencias.Font = new Font("Yu Gothic Medium", 9, FontStyle.Bold);
+                    txtExistencias.BorderStyle = BorderStyle.Fixed3D;
+
+                    numCantidad.TextAlign = HorizontalAlignment.Center;
+
+
 
                     string imagenNombre = producto.Imagen;
 
@@ -132,14 +172,22 @@ namespace Presentacion_e_inicio_de_sesion
                         PictureBox pictureBox = new PictureBox
                         {
                             Image = img,
-                            Location = new Point(60 - 55, 122 + (i * 100)),
-                            Size = new Size(90, 90),
+                            //Location = new Point(60 - 55, 122 + (i * 85)),
+                            Size = new Size(200,200),
                             SizeMode = PictureBoxSizeMode.StretchImage,
                         };
 
+                        pictureBox.Location = new Point(
+                            inicioX + (columna * espHor),
+                            inicioY + (fila * espVer)
+                        );
+
                         this.Controls.Add(pictureBox);
-                        pictureBox.BringToFront();
+                        //pictureBox.BringToFront();
                         pictureBox.BackColor = Color.Gainsboro;
+                        pictureBox.BorderStyle=BorderStyle.Fixed3D;
+
+                        txtExistencias.BringToFront(); //mover el numero de existencias frente a la imagen
                     }
                     catch (Exception ex)
                     {
@@ -154,12 +202,11 @@ namespace Presentacion_e_inicio_de_sesion
             label6.Text = "Nombre:  " + nombreUsuario.ToString();
         }
 
-
-
-        private void label1_Click(object sender, EventArgs e)
+        private void MostrarDescripcion(string descripcion)
         {
-
+            MessageBox.Show(descripcion, "Descripción del Producto", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
 
         private void Form3_Load_1(object sender, EventArgs e)
         {

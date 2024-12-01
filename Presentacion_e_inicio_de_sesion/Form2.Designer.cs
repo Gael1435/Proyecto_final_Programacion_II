@@ -40,6 +40,7 @@
             label1 = new Label();
             btnCerrar = new PictureBox();
             btnMinimizar = new PictureBox();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btnCerrar).BeginInit();
@@ -178,12 +179,24 @@
             btnMinimizar.TabStop = false;
             btnMinimizar.Click += btnMinimizar_Click;
             // 
+            // button1
+            // 
+            button1.Font = new Font("Segoe UI", 10F);
+            button1.Location = new Point(690, 64);
+            button1.Name = "button1";
+            button1.Size = new Size(179, 30);
+            button1.TabIndex = 13;
+            button1.Text = "Iniciar como usuario";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // formLogin
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(891, 440);
+            Controls.Add(button1);
             Controls.Add(btnMinimizar);
             Controls.Add(btnCerrar);
             Controls.Add(label1);
@@ -222,5 +235,6 @@
         private Label label2;
         private PictureBox btnCerrar;
         private PictureBox btnMinimizar;
+        private Button button1;
     }
 }

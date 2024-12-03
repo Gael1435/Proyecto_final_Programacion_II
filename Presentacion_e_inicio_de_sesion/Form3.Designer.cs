@@ -66,6 +66,7 @@
             label6.Size = new Size(360, 50);
             label6.TabIndex = 5;
             label6.TextAlign = ContentAlignment.MiddleLeft;
+            label6.Click += label6_Click;
             // 
             // Form3
             // 

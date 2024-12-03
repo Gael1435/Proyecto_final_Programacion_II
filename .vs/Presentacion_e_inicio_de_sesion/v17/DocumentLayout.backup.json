@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\",
+  "WorkspaceRootPath": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\kuted\\source\\prograazael\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\kuted\\source\\prograazael\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\kuted\\source\\prograazael\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\kuted\\source\\prograazael\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\kuted\\source\\prograazael\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\kuted\\source\\prograazael\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,12 +42,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 5,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
@@ -53,93 +53,105 @@
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form2.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form2.cs",
-              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs [Dise\u00F1o]*",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form2.cs [Dise\u00F1o]*",
+              "DocumentIndex": 1,
+              "Title": "Form4.Designer.cs",
+              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
+              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:27:59.284Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-12-03T19:23:18.535Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Form4.cs [Design]",
+              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs [Design]",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T18:38:55.667Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form4.cs",
+              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "ViewState": "AgIAALIAAAAAAAAAAAAkwL8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T00:56:37.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Form3.cs",
-              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAmwIAAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAOkAAAAAAAAAAAAswPIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-30T03:06:40.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form3.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form3.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:05:47.959Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Productos.cs",
-              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Productos.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Productos.cs",
-              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Productos.cs",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Productos.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:12:33.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Conexion.cs",
+              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Conexion.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Conexion.cs",
-              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Conexion.cs",
+              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Conexion.cs",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:09:40.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T03:09:40.657Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form2.cs",
-              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs*",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form2.cs*",
-              "ViewState": "AgIAAHMAAAAAAAAAAAD4v7UAAAAhAAAAAAAAAA==",
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form3.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T03:26:48.686Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-30T03:05:47.959Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form2.cs",
+              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:26:48.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form1.cs",
+              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form1.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form1.cs",
-              "ToolTip": "C:\\Users\\Kuted\\source\\prograAzael\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form1.cs",
+              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form1.cs",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form1.cs",
               "ViewState": "AgIAABQAAAAAAAAAAAAgwCkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T02:34:03.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-27T02:34:03.002Z"
             }
           ]
         }

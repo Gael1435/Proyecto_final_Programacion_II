@@ -9,6 +9,7 @@ namespace Presentacion_e_inicio_de_sesion
     public class Productos
     {
         private int id;
+        private string nombre;
         private string imagen;
         private string descripcion;
         private double precio;
@@ -18,9 +19,10 @@ namespace Presentacion_e_inicio_de_sesion
         {
 
         }
-        public Productos(int id, string imagen, string descripcion, double precio, int existencias)
+        public Productos(int id, string nombre, string imagen, string descripcion, double precio, int existencias)
         {
             this.Id = id;
+            this.Nombre = nombre;
             this.Imagen = imagen;
             this.Descripcion = descripcion;
             this.Precio = precio;
@@ -32,5 +34,6 @@ namespace Presentacion_e_inicio_de_sesion
         public string Descripcion { get => descripcion; set => descripcion = value; }
         public double Precio { get => precio; set => precio = value; }
         public int Existencias { get => existencias; set => existencias = value; }
+        public string Nombre { get => nombre; set => nombre = value; }
     }
 }

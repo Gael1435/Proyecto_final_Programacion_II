@@ -68,17 +68,24 @@ namespace Presentacion_e_inicio_de_sesion
 
                 string tipo = lector["Tipo"].ToString();
                 string nombreUsuario = lector["Nombre Completo"].ToString();
+                Form3 f3;
 
                 switch (tipo)
                 {
                     case "admin":
                         MessageBox.Show("Has ingresado como un Administrador"); //le mueve brandon
+
+                        f3 = new Form3(nombreUsuario, true);
+                        this.Hide();
+                        f3.ShowDialog();
+                        this.Show();
+
                         break;
 
                     case "usuario":
                         MessageBox.Show("Has ingresado como un Usuario"); //le mueve bruno
 
-                        Form3 f3 = new Form3(nombreUsuario);
+                        f3 = new Form3(nombreUsuario);
                         this.Hide();
                         f3.ShowDialog();
                         this.Show();
@@ -87,6 +94,10 @@ namespace Presentacion_e_inicio_de_sesion
 
                     case "guest":
                         MessageBox.Show("Has ingresado como un Invitado");
+                        this.Hide();
+                        f3 = new Form3(nombreUsuario);
+                        f3.ShowDialog();
+                        this.Show();
                         break;
 
                     default:

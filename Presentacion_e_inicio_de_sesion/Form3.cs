@@ -17,7 +17,9 @@ namespace Presentacion_e_inicio_de_sesion
 {
     public partial class Form3 : Form
     {
-        private string nombreUsuario = "Nombre no especificado";
+        static public bool logout = false; // Para cerrar desde otros form
+        private string nombreUsuario = "Invitado";
+        bool admin = false;
         private Conexion mConexion;
         public Form3()
         {
@@ -31,6 +33,14 @@ namespace Presentacion_e_inicio_de_sesion
             mConexion = new Conexion();
             this.nombreUsuario = nombreUsuario;
             this.Load += new EventHandler(Form3_Load);
+        }
+        public Form3(string nombreUsuario, bool admin)
+        {
+            InitializeComponent();
+            mConexion = new Conexion();
+            this.nombreUsuario = nombreUsuario;
+            this.Load += new EventHandler(Form3_Load);
+            this.admin = admin;
         }
 
         private void Form3_Load(object sender, EventArgs e)
@@ -54,19 +64,20 @@ namespace Presentacion_e_inicio_de_sesion
                 while (reader.Read())
                 {
                     int id = Convert.ToInt32(reader["ID"]);
+                    string nombre = Convert.ToString(reader["NOMBRE"]) ?? "";
                     string imagen = Convert.ToString(reader["IMAGEN"]) ?? "";
                     string descripcion = Convert.ToString(reader["DESCRIPCIÓN"]) ?? "";
                     double precio = Convert.ToDouble(reader["PRECIO"]);
                     int existencias = Convert.ToInt32(reader["EXISTENCIAS"]);
 
-                    productos.Add(new Productos(id, imagen, descripcion, precio, existencias)); //añade los productos a la lista
+                    productos.Add(new Productos(id, nombre, imagen, descripcion, precio, existencias)); //añade los productos a la lista
                 }
                 reader.Close();
 
                 //logica para acomodar los objetos
                 int maxPorFila = 5;
                 int espHor = 230;
-                int espVer = 380; 
+                int espVer = 380;
                 int inicioX = 40;
                 int inicioY = 150;
 
@@ -77,8 +88,6 @@ namespace Presentacion_e_inicio_de_sesion
                     int columna = i % maxPorFila;
 
                     Productos producto = productos[i];
-
-                    string nombrePostre = Path.GetFileNameWithoutExtension(producto.Imagen); //para el nombre
 
                     Label txtPrecio = new Label
                     {
@@ -92,12 +101,12 @@ namespace Presentacion_e_inicio_de_sesion
                     };
                     Button btn = new Button //boton de descripcion
                     {
-                        Size= new Size(50,50)
+                        Size = new Size(50, 50)
                     };
                     Label nomPostre = new Label
                     {
-                        Text= nombrePostre.ToString(),
-                        Size = new Size(150,50)
+                        Text = producto.Nombre,
+                        Size = new Size(150, 50)
                     };
                     NumericUpDown numCantidad = new NumericUpDown
                     {
@@ -131,13 +140,15 @@ namespace Presentacion_e_inicio_de_sesion
                     );
 
 
-                    //agregar los textbox al formulario
+                    //agregar los controles al formulario
                     this.Controls.Add(txtPrecio);
                     this.Controls.Add(txtExistencias);
                     this.Controls.Add(btn);
                     this.Controls.Add(nomPostre);
-                    this.Controls.Add(numCantidad);
-
+                    if (!admin)
+                    {
+                        this.Controls.Add(numCantidad);
+                    }
 
                     btn.BringToFront();
                     btn.Image = Properties.Resources.ImgDesc_2;
@@ -173,7 +184,7 @@ namespace Presentacion_e_inicio_de_sesion
                         {
                             Image = img,
                             //Location = new Point(60 - 55, 122 + (i * 85)),
-                            Size = new Size(200,200),
+                            Size = new Size(200, 200),
                             SizeMode = PictureBoxSizeMode.StretchImage,
                         };
 
@@ -185,7 +196,7 @@ namespace Presentacion_e_inicio_de_sesion
                         this.Controls.Add(pictureBox);
                         //pictureBox.BringToFront();
                         pictureBox.BackColor = Color.Gainsboro;
-                        pictureBox.BorderStyle=BorderStyle.Fixed3D;
+                        pictureBox.BorderStyle = BorderStyle.Fixed3D;
 
                         txtExistencias.BringToFront(); //mover el numero de existencias frente a la imagen
                     }
@@ -200,11 +211,36 @@ namespace Presentacion_e_inicio_de_sesion
                 MessageBox.Show("Error al conectar con la base de datos");
             }
             label6.Text = "Nombre:  " + nombreUsuario.ToString();
+
+            if (admin)
+            {
+                Button panel = new Button
+                {
+                    AutoSize = true,
+                    Text = "Panel de administracion",
+                    Font = new Font("Book Antiqua", 13.8F, FontStyle.Bold)
+                };
+
+                panel.Click += (sender, e) => PanelAdmin();
+                panel.Location = new Point(10, 10);
+                this.Controls.Add(panel);
+                panel.BringToFront();
+            }
         }
 
         private void MostrarDescripcion(string descripcion)
         {
             MessageBox.Show(descripcion, "Descripción del Producto", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        } 
+
+        private void PanelAdmin()
+        {
+            Administrador f4 = new Administrador();
+            this.Hide();
+            f4.ShowDialog();
+            if (logout)
+                this.Close();
+            this.Show();
         }
 
 
@@ -216,6 +252,11 @@ namespace Presentacion_e_inicio_de_sesion
         private void button1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

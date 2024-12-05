@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -17,9 +19,13 @@ namespace Presentacion_e_inicio_de_sesion
 {
     public partial class Form3 : Form
     {
+        List<Productos> productos = new List<Productos>(); //genera la lista vacia de productos
+        private List<NumericUpDown> listaNumeros = new List<NumericUpDown>(); //para guardar los datos de los NumericUpDown
+        private double totalCompra = 0.00;
         static public bool logout = false; // Para cerrar desde otros form
         private string nombreUsuario = "Invitado";
         bool admin = false;
+        bool bandera = false; //confirma si se realizo la compra
         private Conexion mConexion;
         public Form3()
         {
@@ -59,14 +65,14 @@ namespace Presentacion_e_inicio_de_sesion
                 MySqlCommand command = new MySqlCommand(query);
                 command.Connection = mConexion.getConexion();
 
-                List<Productos> productos = new List<Productos>(); //genera la lista vacia de productos
+
                 reader = command.ExecuteReader();
                 while (reader.Read())
                 {
                     int id = Convert.ToInt32(reader["ID"]);
                     string nombre = Convert.ToString(reader["NOMBRE"]) ?? "";
                     string imagen = Convert.ToString(reader["IMAGEN"]) ?? "";
-                    string descripcion = Convert.ToString(reader["DESCRIPCIÓN"]) ?? "";
+                    string descripcion = Convert.ToString(reader["DESCRIPCION"]) ?? "";
                     double precio = Convert.ToDouble(reader["PRECIO"]);
                     int existencias = Convert.ToInt32(reader["EXISTENCIAS"]);
 
@@ -110,8 +116,14 @@ namespace Presentacion_e_inicio_de_sesion
                     };
                     NumericUpDown numCantidad = new NumericUpDown
                     {
-                        Size = new Size(60, 50)
+                        Size = new Size(60, 50),
+                        Value = 0,
+                        Minimum = 0,
+                        Maximum = producto.Existencias
                     };
+
+                    // Registrar el evento ValueChanged para que se dispare cuando el usuario cambie la cantidad
+                    numCantidad.ValueChanged += (sender, e) => ActualizarCarrito(producto, numCantidad);
 
                     btn.Click += (sender, e) => MostrarDescripcion(producto.Descripcion);
                     btn.Location = new Point(
@@ -148,6 +160,7 @@ namespace Presentacion_e_inicio_de_sesion
                     if (!admin)
                     {
                         this.Controls.Add(numCantidad);
+                        listaNumeros.Add(numCantidad);
                     }
 
                     btn.BringToFront();
@@ -231,7 +244,7 @@ namespace Presentacion_e_inicio_de_sesion
         private void MostrarDescripcion(string descripcion)
         {
             MessageBox.Show(descripcion, "Descripción del Producto", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        } 
+        }
 
         private void PanelAdmin()
         {
@@ -257,6 +270,127 @@ namespace Presentacion_e_inicio_de_sesion
         private void label6_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnCompras_Click(object sender, EventArgs e)
+        {
+
+           
+        }
+        //este hace que el producto se actualize en la bd
+
+        private void ActualizarCarrito(Productos producto, NumericUpDown numCantidad)
+        {
+            decimal cantidad = numCantidad.Value;
+            decimal precioProducto = (decimal)producto.Precio;
+            decimal total = cantidad * precioProducto;
+            if (cantidad > 0)
+            {
+                // Buscar si ya existe el producto en el ListView
+                ListViewItem itemExistente = null;
+                foreach (ListViewItem item in listView1.Items)
+                {
+                    if (item.SubItems[0].Text == producto.Nombre)
+                    {
+                       itemExistente = item;
+                        break;
+                    }
+                }
+
+                if (itemExistente == null)
+                {
+                    // Si no existe, agregar el producto al ListView
+                    ListViewItem compras = new ListViewItem(producto.Nombre);
+                    compras.SubItems.Add(cantidad.ToString());
+                    compras.SubItems.Add("$" + precioProducto.ToString("F2"));
+                    compras.SubItems.Add("$" + total.ToString("F2"));
+                    listView1.Items.Add(compras);
+                }
+                else
+                {
+                    // Si el producto ya está en el carrito, actualizar la cantidad y el total
+                    itemExistente.SubItems[1].Text = cantidad.ToString();
+                    itemExistente.SubItems[3].Text = "$" + total.ToString("F2");
+                }
+            }
+            else
+            {
+                // Si la cantidad es cero, eliminar el producto del carrito
+                foreach (ListViewItem item in listView1.Items)
+                {
+                    if (item.SubItems[0].Text == producto.Nombre)
+                    {
+                        listView1.Items.Remove(item);
+                        break; // Solo eliminamos el primer item encontrado
+                    }
+                }
+            }
+
+            // Actualizar el total global
+            totalCompra = 0;
+            foreach (ListViewItem item in listView1.Items)
+            {
+                totalCompra += Convert.ToDouble(item.SubItems[3].Text.Substring(1)); // Quitar el símbolo "$" y sumar
+            }
+            lbl_total.Text = "Total: $" + totalCompra.ToString("F2");
+        }
+        private void ActualizarYRecargarLista()
+        {
+            // Limpiar la lista actual
+            productos.Clear();
+
+            // Volver a cargar los productos desde la base de datos
+            generarlLista();
+
+        }
+
+        public Form3(bool confirmado)
+        {
+            InitializeComponent();
+
+            if (confirmado)
+            {
+                MessageBox.Show("La compra se ha realizado correctamente.");
+                bandera = true;
+            }
+        }
+
+        private void ActualizarDatos()
+        {
+            foreach (ListViewItem item in listView1.Items)
+            {
+                string nombreProducto = item.SubItems[0].Text;
+                decimal cantidad = Convert.ToDecimal(item.SubItems[1].Text);
+                Productos producto = productos.FirstOrDefault(p => p.Nombre == nombreProducto);
+
+                if (producto != null)
+                {
+                    int actualizacion = producto.Existencias - (int)cantidad;
+
+                    string actualizar = "UPDATE productos SET EXISTENCIAS = @Existencias WHERE NOMBRE = @NombreProducto";
+                    MySqlCommand command = new MySqlCommand(actualizar, mConexion.getConexion());
+                    command.Parameters.AddWithValue("@Existencias", actualizacion);
+                    command.Parameters.AddWithValue("@NombreProducto", nombreProducto);
+
+                    int rows = command.ExecuteNonQuery();
+
+                    if (rows > 0)
+                    {
+                        producto.Existencias = actualizacion;
+                    }
+                }
+            }
+        }
+        private void btnComprar_Click(object sender, EventArgs e)
+        {
+
+            Form5 f5 = new Form5(totalCompra, nombreUsuario);
+            this.Hide();
+            f5.ShowDialog();
+            this.Close();
+                ActualizarDatos();
+                ActualizarYRecargarLista();
+     
         }
     }
 }

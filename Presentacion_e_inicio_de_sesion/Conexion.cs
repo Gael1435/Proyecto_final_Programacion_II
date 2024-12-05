@@ -67,7 +67,7 @@ namespace Presentacion_e_inicio_de_sesion
                     nombre = imagen = Convert.ToString(reader["NOMBRE"]) ?? "";
                     imagen = Convert.ToString(reader["IMAGEN"]) ?? "";
                     precio = Convert.ToDouble(reader["PRECIO"]);
-                    descripcion = Convert.ToString(reader["DESCRIPCIÓN"]) ?? "";
+                    descripcion = Convert.ToString(reader["DESCRIPCION"]) ?? "";
                     existencias = Convert.ToInt32(reader["EXISTENCIAS"]);
 
                     elemento = new Productos(id, nombre, imagen, descripcion, precio, existencias);
@@ -87,7 +87,7 @@ namespace Presentacion_e_inicio_de_sesion
             string consulta = "";
             try
             {
-                consulta = "INSERT INTO productos (ID, NOMBRE, IMAGEN, DESCRIPCIÓN, PRECIO, EXISTENCIAS) VALUES ("
+                consulta = "INSERT INTO productos (ID, NOMBRE, IMAGEN, DESCRIPCION, PRECIO, EXISTENCIAS) VALUES ("
                + "'" + id + "',"
                + "'" + nombre + "',"
                + "'" + imagen + "', "
@@ -130,7 +130,7 @@ namespace Presentacion_e_inicio_de_sesion
                     nombre = imagen = Convert.ToString(reader["NOMBRE"]) ?? "";
                     imagen = Convert.ToString(reader["IMAGEN"]) ?? "";
                     precio = Convert.ToDouble(reader["PRECIO"]);
-                    descripcion = Convert.ToString(reader["DESCRIPCIÓN"]) ?? "";
+                    descripcion = Convert.ToString(reader["DESCRIPCION"]) ?? "";
                     existencias = Convert.ToInt32(reader["EXISTENCIAS"]);
 
                     elemento = new Productos(id, nombre, imagen, descripcion, precio, existencias);
@@ -158,6 +158,32 @@ namespace Presentacion_e_inicio_de_sesion
             catch (Exception ex)
             {
                 MessageBox.Show(query + "\nError " + ex.Message);
+            }
+        }
+
+        public void actualizarTotalCompras(string nombreUsuario, double totalCompra)
+        {
+            try
+            {
+                // Consulta para actualizar el total de compras del usuario
+                string consulta = "UPDATE tabla_usuarios SET `Monto` = Monto + @TotalCompra WHERE `Nombre Completo` = @NombreUsuario;";
+
+                // Preparar el comando para ejecutar la consulta
+                MySqlCommand comando = new MySqlCommand(consulta, conexion);
+
+                // Asignar los parámetros de la consulta
+                comando.Parameters.AddWithValue("@TotalCompra", totalCompra);
+                comando.Parameters.AddWithValue("@NombreUsuario", nombreUsuario);
+
+                // Ejecutar la consulta
+                comando.ExecuteNonQuery();
+
+                MessageBox.Show("Total de compras actualizado correctamente.");
+            }
+            catch (Exception ex)
+            {
+                // Mostrar un mensaje de error si ocurre un problema
+                MessageBox.Show("Error al actualizar el total de compras: " + ex.Message);
             }
         }
 

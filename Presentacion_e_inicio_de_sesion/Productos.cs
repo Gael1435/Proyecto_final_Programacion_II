@@ -14,6 +14,7 @@ namespace Presentacion_e_inicio_de_sesion
         private string descripcion;
         private double precio;
         private int existencias;
+        public int CantidadSeleccionada = 0;
 
         public Productos()
         {

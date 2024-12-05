@@ -1,38 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|d:\\visual studio proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form5.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\productos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\form4.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,100 +70,146 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form4.Designer.cs",
-              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
-              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Form3.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form3.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T19:23:18.535Z"
+              "WhenOpened": "2024-11-30T03:05:47.959Z",
+              "IsPinned": true,
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form3.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form3.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAIIBAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:06:40.212Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Form4.cs [Design]",
-              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form4.cs",
-              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs [Design]",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form4.cs [Design]",
+              "Title": "Form5.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form5.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form5.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form5.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form5.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowIkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-03T18:38:55.667Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-12-05T03:08:14.327Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form5.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form5.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form5.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form5.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form5.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T02:55:18.002Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Conexion.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Conexion.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Conexion.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Conexion.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Conexion.cs",
+              "ViewState": "AgIAAJYAAAAAAAAAAAAAAKgAAAB0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-30T03:09:40.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Productos.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Productos.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Productos.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Productos.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Productos.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T01:01:43.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Form4.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form4.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-03T19:23:18.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Form4.cs",
-              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form4.cs",
-              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form4.cs",
-              "ViewState": "AgIAALIAAAAAAAAAAAAkwL8AAABGAAAAAAAAAA==",
+              "ViewState": "AgIAANsAAAAAAAAAAAAAAPgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T00:56:37.475Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form3.cs",
-              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "ViewState": "AgIAAOkAAAAAAAAAAAAswPIAAAAYAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Form2.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form2.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form2.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAAAwwEUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:06:40.212Z",
+              "WhenOpened": "2024-11-27T03:26:48.686Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Conexion.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Conexion.cs",
-              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Conexion.cs",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Conexion.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKcAAAANAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Form4.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form4.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form4.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form4.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:09:40.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Form3.cs [Dise\u00F1o]",
-              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form3.cs",
-              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form3.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form3.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T03:05:47.959Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Form2.cs",
-              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form2.cs",
-              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form2.cs",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T03:26:48.686Z"
+              "WhenOpened": "2024-12-03T18:38:55.667Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form1.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\Form1.cs",
-              "ToolTip": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form1.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Form1.cs",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\Form1.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCkAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wCkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-27T02:34:03.002Z"
+              "WhenOpened": "2024-11-27T02:34:03.002Z",
+              "EditorCaption": ""
             }
           ]
         }

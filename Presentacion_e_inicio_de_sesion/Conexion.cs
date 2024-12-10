@@ -211,5 +211,27 @@ namespace Presentacion_e_inicio_de_sesion
             }
             return total;
         }
+        public List<double> ventasInd()
+        {
+            List <double> ventas = new List<double>();
+            try
+            {
+                string query = "SELECT * FROM tabla_usuarios";
+                MySqlCommand command = new MySqlCommand(query, this.conexion);
+
+                MySqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    ventas.Add(Convert.ToDouble(reader["Monto"]));
+                }
+                reader.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error al leer la tabla de la base de datos: " + ex.Message);
+            }
+            return ventas;
+        }
     }
 }

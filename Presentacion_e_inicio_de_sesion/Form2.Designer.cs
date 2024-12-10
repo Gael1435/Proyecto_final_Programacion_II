@@ -74,6 +74,7 @@
             txtboxContra.Size = new Size(535, 32);
             txtboxContra.TabIndex = 2;
             txtboxContra.Text = "CONTRASEÑA";
+            txtboxContra.TextChanged += txtboxContra_TextChanged;
             txtboxContra.Enter += txtboxContra_Enter;
             txtboxContra.Leave += txtboxContra_Leave;
             // 

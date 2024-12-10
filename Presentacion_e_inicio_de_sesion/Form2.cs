@@ -21,6 +21,7 @@ namespace Presentacion_e_inicio_de_sesion
             InitializeComponent();
         }
 
+
         MySqlConnection conexion = new MySqlConnection("server = MARTHA;database=usuarios");
 
         ///****
@@ -104,6 +105,8 @@ namespace Presentacion_e_inicio_de_sesion
                         MessageBox.Show("Usuario indefinido");
                         break;
                 }
+                txtboxContra.Text = "";
+                txtboxUsuario.Text = "";
                 lector.Close();
                 //MessageBox.Show("Bienvenido");
             }
@@ -194,6 +197,11 @@ namespace Presentacion_e_inicio_de_sesion
             this.Hide();
             f3.ShowDialog();
             this.Show();
+        }
+
+        private void txtboxContra_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

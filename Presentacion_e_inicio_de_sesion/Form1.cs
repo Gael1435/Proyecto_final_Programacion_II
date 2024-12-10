@@ -41,7 +41,12 @@ namespace Presentacion_e_inicio_de_sesion
             this.Hide();//esconde primero el formulario
             Formlogin.ShowDialog();  // Muestra el segundo formulario
             this.Close();//cierra este al momento de cerrar el otro
-          
+
+        }
+
+        private void lblHora_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

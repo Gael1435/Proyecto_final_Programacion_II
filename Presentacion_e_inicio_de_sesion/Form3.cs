@@ -9,7 +9,11 @@ using System.Runtime.Intrinsics.Arm;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
+using System.Xml.Linq;
 using MySql.Data.MySqlClient;
+using static System.Net.Mime.MediaTypeNames;
+using Font = System.Drawing.Font;
 
 ///
 /// PANTALLA DE COMPRAS
@@ -19,6 +23,7 @@ namespace Presentacion_e_inicio_de_sesion
 {
     public partial class Form3 : Form
     {
+        Dictionary<string, int> Diccionario = new Dictionary<string, int>(); // Para usar un diccionario en imagenes
         List<Productos> productos = new List<Productos>(); //genera la lista vacia de productos
         private List<NumericUpDown> listaNumeros = new List<NumericUpDown>(); //para guardar los datos de los NumericUpDown
         private double totalCompra = 0.00;
@@ -32,6 +37,12 @@ namespace Presentacion_e_inicio_de_sesion
             InitializeComponent();
             mConexion = new Conexion();
             this.Load += new EventHandler(Form3_Load);
+            for (int i = 0; i < imageList1.Images.Count; i++)
+            {
+                // Genera el diccionario en base a los nombres de las imagenes
+                string key = imageList1.Images.Keys[i];
+                Diccionario[key] = i;
+            }
         }
         public Form3(string nombreUsuario)
         {
@@ -39,6 +50,12 @@ namespace Presentacion_e_inicio_de_sesion
             mConexion = new Conexion();
             this.nombreUsuario = nombreUsuario;
             this.Load += new EventHandler(Form3_Load);
+            for (int i = 0; i < imageList1.Images.Count; i++)
+            {
+                // Genera el diccionario en base a los nombres de las imagenes
+                string key = imageList1.Images.Keys[i];
+                Diccionario[key] = i;
+            }
         }
         public Form3(string nombreUsuario, bool admin)
         {
@@ -47,6 +64,12 @@ namespace Presentacion_e_inicio_de_sesion
             this.nombreUsuario = nombreUsuario;
             this.Load += new EventHandler(Form3_Load);
             this.admin = admin;
+            for (int i = 0; i < imageList1.Images.Count; i++)
+            {
+                // Genera el diccionario en base a los nombres de las imagenes
+                string key = imageList1.Images.Keys[i];
+                Diccionario[key] = i;
+            }
         }
 
         private void Form3_Load(object sender, EventArgs e)
@@ -180,17 +203,15 @@ namespace Presentacion_e_inicio_de_sesion
 
                     numCantidad.TextAlign = HorizontalAlignment.Center;
 
-
-
                     string imagenNombre = producto.Imagen;
+                    var img = imageList1.Images[0];
 
                     try
                     {
-                        string imagenSinExtension = Path.GetFileNameWithoutExtension(imagenNombre);
-                        Image img = (Image)Properties.Resources.ResourceManager.GetObject(imagenSinExtension);
-                        if (img == null)
+                        if (Diccionario.ContainsKey(imagenNombre)) // Verificar si el nombre existe
                         {
-                            img = Properties.Resources.defaultImage; // Imagen por defecto si no se encuentra
+                            int indice = Diccionario[imagenNombre]; // Recupera el indice de la imagen 
+                            img = imageList1.Images[indice];
                         }
 
                         PictureBox pictureBox = new PictureBox
@@ -238,7 +259,24 @@ namespace Presentacion_e_inicio_de_sesion
                 panel.Location = new Point(10, 10);
                 this.Controls.Add(panel);
                 panel.BringToFront();
+
+                PictureBox pictureBoxLogo = new PictureBox
+                {
+                    Image = (System.Drawing.Image)Properties.Resources.ResourceManager.GetObject("Logo"),
+                    Size = new Size(557, 487),
+                    SizeMode = PictureBoxSizeMode.StretchImage,
+                };
+
+                pictureBoxLogo.Location = new Point(1395, 164);
+
+                this.Controls.Add(pictureBoxLogo);
+                pictureBoxLogo.BringToFront();
+
+                lbl_total.Text = "Tartana";
+                btnComprar.Enabled = false;
+                btnComprar.Text = "Bloqueado";
             }
+            
         }
 
         private void MostrarDescripcion(string descripcion)
@@ -253,7 +291,11 @@ namespace Presentacion_e_inicio_de_sesion
             f4.ShowDialog();
             if (logout)
                 this.Close();
-            this.Show();
+            else
+            {
+                this.Show();
+                ActualizarYRecargarLista();
+            }
         }
 
 
@@ -387,10 +429,9 @@ namespace Presentacion_e_inicio_de_sesion
             Form5 f5 = new Form5(totalCompra, nombreUsuario);
             this.Hide();
             f5.ShowDialog();
-            this.Close();
-                ActualizarDatos();
-                ActualizarYRecargarLista();
-     
+            this.Show();
+            ActualizarDatos();
+            ActualizarYRecargarLista();
         }
     }
 }

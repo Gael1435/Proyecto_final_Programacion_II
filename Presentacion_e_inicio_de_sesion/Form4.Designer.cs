@@ -56,6 +56,7 @@
             imagen = new PictureBox();
             imageList1 = new ImageList(components);
             logout = new Button();
+            Tartana = new Label();
             ((System.ComponentModel.ISupportInitialize)imagen).BeginInit();
             SuspendLayout();
             // 
@@ -311,17 +312,24 @@
             imageList1.ColorDepth = ColorDepth.Depth32Bit;
             imageList1.ImageStream = (ImageListStreamer)resources.GetObject("imageList1.ImageStream");
             imageList1.TransparentColor = Color.Transparent;
-            imageList1.Images.SetKeyName(0, "LogoSmall.jpg");
+            imageList1.Images.SetKeyName(0, "Logo.png");
             imageList1.Images.SetKeyName(1, "arrozConLeche.png");
             imageList1.Images.SetKeyName(2, "brownies.png");
             imageList1.Images.SetKeyName(3, "capirotada.png");
-            imageList1.Images.SetKeyName(4, "chocoFlan.png");
-            imageList1.Images.SetKeyName(5, "gelatinaMosaicos.png");
-            imageList1.Images.SetKeyName(6, "macarrones.png");
-            imageList1.Images.SetKeyName(7, "nieve.png");
-            imageList1.Images.SetKeyName(8, "panPlatano.png");
-            imageList1.Images.SetKeyName(9, "pastel.png");
-            imageList1.Images.SetKeyName(10, "payLimon.png");
+            imageList1.Images.SetKeyName(4, "Cheesecake.png");
+            imageList1.Images.SetKeyName(5, "chocoFlan.png");
+            imageList1.Images.SetKeyName(6, "Croissant.png");
+            imageList1.Images.SetKeyName(7, "Cupcake.png");
+            imageList1.Images.SetKeyName(8, "Dona.png");
+            imageList1.Images.SetKeyName(9, "Empanada.png");
+            imageList1.Images.SetKeyName(10, "Galletas.png");
+            imageList1.Images.SetKeyName(11, "gelatinaMosaicos.png");
+            imageList1.Images.SetKeyName(12, "macarrones.png");
+            imageList1.Images.SetKeyName(13, "nieve.png");
+            imageList1.Images.SetKeyName(14, "panPlatano.png");
+            imageList1.Images.SetKeyName(15, "pastel.png");
+            imageList1.Images.SetKeyName(16, "payLimon.png");
+            imageList1.Images.SetKeyName(17, "Tiramisu.png");
             // 
             // logout
             // 
@@ -334,12 +342,26 @@
             logout.UseVisualStyleBackColor = true;
             logout.Click += logout_Click;
             // 
+            // Tartana
+            // 
+            Tartana.AutoSize = true;
+            Tartana.BackColor = Color.FromArgb(255, 224, 192);
+            Tartana.BorderStyle = BorderStyle.Fixed3D;
+            Tartana.Font = new Font("Monotype Corsiva", 36F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            Tartana.ForeColor = Color.FromArgb(128, 128, 255);
+            Tartana.Location = new Point(402, 24);
+            Tartana.Name = "Tartana";
+            Tartana.Size = new Size(209, 74);
+            Tartana.TabIndex = 26;
+            Tartana.Text = "Tartana";
+            // 
             // Administrador
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(1278, 724);
+            Controls.Add(Tartana);
             Controls.Add(logout);
             Controls.Add(listProductos);
             Controls.Add(btnSalir);
@@ -401,5 +423,6 @@
         private PictureBox imagen;
         private ImageList imageList1;
         private Button logout;
+        private Label Tartana;
     }
 }

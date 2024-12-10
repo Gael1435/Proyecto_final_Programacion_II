@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
+using System.Windows.Forms.DataVisualization.Charting;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Presentacion_e_inicio_de_sesion
@@ -20,22 +21,56 @@ namespace Presentacion_e_inicio_de_sesion
         Dictionary<string, int> Diccionario = new Dictionary<string, int>();
         bool busqueda = false; // Auxiliar para cambiar el comportamiento del boton de Agregar a Eliminar
         private Conexion conexion = new Conexion();
+        private Chart grafico; // Control Chart para el grafico
         public Administrador()
         {
             InitializeComponent();
             conexion.getConexion();
+
             for (int i = 0; i < imageList1.Images.Count; i++)
             {
                 // Genera el diccionario en base a los nombres de las imagenes
                 string key = imageList1.Images.Keys[i];
                 Diccionario[key] = i;
             }
+
+            // Crea el grafico
+            grafico = new Chart()
+            {
+                Location = new Point(753, 75), 
+                Size = new Size(417, 188)   
+            };
+
+            ChartArea area = new ChartArea();
+            grafico.ChartAreas.Add(area);
+
+            Series info = new Series
+            {
+                Name = "Ventas",
+                ChartType = SeriesChartType.Pie, // Tipo pastel
+                IsValueShownAsLabel = true // Mostrar valores
+            };
+            grafico.Series.Add(info);
+
+            this.Controls.Add(grafico);
+
             refrescar();
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void DibujarGraf((string user, double venta)[] datos)
+        {
+            Series info = grafico.Series["Ventas"];
+            info.Points.Clear(); // Limpiar datos anteriores
+
+            foreach (var (categoria, valor) in datos)
+            {
+                info.Points.AddXY(categoria, valor); // Agregar puntos al gráfico
+            }
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -209,6 +244,18 @@ namespace Presentacion_e_inicio_de_sesion
 
             double ventasC = conexion.ventasConsulta();
             ventas.Text = $"${ventasC}";
+
+            // Actualiza el grafico
+            List <double> ventasLista = conexion.ventasInd();
+            var info = new[]
+            {
+                ("Brandon", ventasLista[1]),
+                ("Azael", ventasLista[2]),
+                ("Bruno", ventasLista[3]),
+                ("Invitado", ventasLista[4])
+            };
+
+            DibujarGraf(info);
         }
 
 

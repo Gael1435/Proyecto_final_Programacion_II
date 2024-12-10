@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj": {}
+    "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj": {}
   },
   "projects": {
-    "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj": {
+    "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj",
         "projectName": "Presentacion_e_inicio_de_sesion",
-        "projectPath": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj",
-        "packagesPath": "C:\\Users\\brand\\.nuget\\packages\\",
-        "outputPath": "D:\\Visual Studio Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\brand\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,7 +77,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -77,9 +77,9 @@ namespace Presentacion_e_inicio_de_sesion
                     MessageBox.Show("Datos Validos, realizando compra");
                     confirmado = true;
                     ActualizarUsuario();
-                    Form3 form3 = new Form3(confirmado);
-                    form3.Show();
-                    this.Close();
+                    //Form3 form3 = new Form3();
+                    //form3.Show();
+                    this.Hide();
                 }
                 else
                 {
@@ -95,19 +95,20 @@ namespace Presentacion_e_inicio_de_sesion
         {
             decimal pago = Convert.ToDecimal(txtPago.Text);
             decimal cambio = 0;
-
+            bool confirmado = false;
             if (pago < Convert.ToDecimal(totalCompra))
             {
                 MessageBox.Show("El pago es menor y no se puede completar");
             }
             else
             {
+                confirmado = true;
                 cambio = pago - Convert.ToDecimal(totalCompra);
                 MessageBox.Show("Su cambio es de $" + cambio);
                 ActualizarUsuario();
-                Form3 form3 = new Form3();
-                form3.Show();
-                this.Close();
+                //Form3 form3 = new Form3();
+                //form3.Show();
+                this.Hide();
             }
         }
 

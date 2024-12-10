@@ -276,7 +276,7 @@ namespace Presentacion_e_inicio_de_sesion
                 btnComprar.Enabled = false;
                 btnComprar.Text = "Bloqueado";
             }
-            
+
         }
 
         private void MostrarDescripcion(string descripcion)
@@ -317,7 +317,7 @@ namespace Presentacion_e_inicio_de_sesion
         private void btnCompras_Click(object sender, EventArgs e)
         {
 
-           
+
         }
         //este hace que el producto se actualize en la bd
 
@@ -334,7 +334,7 @@ namespace Presentacion_e_inicio_de_sesion
                 {
                     if (item.SubItems[0].Text == producto.Nombre)
                     {
-                       itemExistente = item;
+                        itemExistente = item;
                         break;
                     }
                 }
@@ -430,8 +430,36 @@ namespace Presentacion_e_inicio_de_sesion
             this.Hide();
             f5.ShowDialog();
             this.Show();
+
+
             ActualizarDatos();
             ActualizarYRecargarLista();
+
+            foreach (NumericUpDown numCantidad in listaNumeros)
+            {
+                numCantidad.Value = 0;
+            }
+
+            totalCompra = 0;//compra igual a cero
+            lbl_total.Text = "Total 0.00";
+        
+            
+        }
+
+        
+
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            foreach (NumericUpDown numCantidad in listaNumeros)
+            {
+                numCantidad.Value = 0;
+            }
+
+            //listView1.Clear();//limpiar el listView
+
+            totalCompra = 0;//compra igual a cero
+            lbl_total.Text = "Total 0.00";
         }
     }
 }

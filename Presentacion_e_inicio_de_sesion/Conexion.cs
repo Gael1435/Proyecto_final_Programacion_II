@@ -178,7 +178,7 @@ namespace Presentacion_e_inicio_de_sesion
                 // Ejecutar la consulta
                 comando.ExecuteNonQuery();
 
-                MessageBox.Show("Total de compras actualizado correctamente.");
+        
             }
             catch (Exception ex)
             {

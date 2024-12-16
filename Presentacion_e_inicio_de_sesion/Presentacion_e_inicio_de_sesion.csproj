@@ -9,9 +9,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="iTextSharp" Version="5.5.13.4" />
     <PackageReference Include="MySql.Data" Version="9.1.0" />
     <PackageReference Include="System.Data.OleDb" Version="9.0.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+    <PackageReference Include="ZXing.Net" Version="0.16.9" />
   </ItemGroup>
 
   <ItemGroup>
@@ -81,7 +83,7 @@
     <None Update="Resources\ImgDesc_2.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="Resources\Logo.jpg">
+    <None Update="Resources\Logol.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
     <None Update="Resources\Logo.png">

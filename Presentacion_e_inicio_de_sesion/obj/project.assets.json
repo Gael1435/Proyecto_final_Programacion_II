@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net8.0-windows7.0": {
-      "BouncyCastle.Cryptography/2.3.1": {
+      "BouncyCastle.Cryptography/2.4.0": {
         "type": "package",
         "compile": {
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
@@ -26,6 +26,18 @@
           "lib/net5.0/Google.Protobuf.dll": {
             "related": ".pdb;.xml"
           }
+        }
+      },
+      "iTextSharp/5.5.13.4": {
+        "type": "package",
+        "dependencies": {
+          "BouncyCastle.Cryptography": "2.4.0"
+        },
+        "compile": {
+          "lib/net461/itextsharp.dll": {}
+        },
+        "runtime": {
+          "lib/net461/itextsharp.dll": {}
         }
       },
       "K4os.Compression.LZ4/1.3.8": {
@@ -589,20 +601,33 @@
         "runtime": {
           "lib/net8.0/ZstdSharp.dll": {}
         }
+      },
+      "ZXing.Net/0.16.9": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/zxing.dll": {
+            "related": ".XML"
+          }
+        }
       }
     }
   },
   "libraries": {
-    "BouncyCastle.Cryptography/2.3.1": {
-      "sha512": "buwoISwecYke3CmgG1AQSg+sNZjJeIb93vTAtJiHZX35hP/teYMxsfg0NDXGUKjGx6BKBTNKc77O2M3vKvlXZQ==",
+    "BouncyCastle.Cryptography/2.4.0": {
+      "sha512": "SwXsAV3sMvAU/Nn31pbjhWurYSjJ+/giI/0n6tCrYoupEK34iIHCuk3STAd9fx8yudM85KkLSVdn951vTng/vQ==",
       "type": "package",
-      "path": "bouncycastle.cryptography/2.3.1",
+      "path": "bouncycastle.cryptography/2.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.md",
         "README.md",
-        "bouncycastle.cryptography.2.3.1.nupkg.sha512",
+        "bouncycastle.cryptography.2.4.0.nupkg.sha512",
         "bouncycastle.cryptography.nuspec",
         "lib/net461/BouncyCastle.Cryptography.dll",
         "lib/net461/BouncyCastle.Cryptography.xml",
@@ -634,6 +659,22 @@
         "lib/netstandard2.0/Google.Protobuf.dll",
         "lib/netstandard2.0/Google.Protobuf.pdb",
         "lib/netstandard2.0/Google.Protobuf.xml"
+      ]
+    },
+    "iTextSharp/5.5.13.4": {
+      "sha512": "/cvCNv8AJ+XuD99u4NfHSSxkBJKTdvP36wcfQF9V1Cjzi1ycyFSa4vJ64a3DhFVUTKVO60WF8OmAqngQDTHgYA==",
+      "type": "package",
+      "path": "itextsharp/5.5.13.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "gnu-agpl-v3.0.md",
+        "itextsharp.5.5.13.4.nupkg.sha512",
+        "itextsharp.nuspec",
+        "lib/net461/iTextSharp.xml",
+        "lib/net461/itextsharp.dll",
+        "notice.txt"
       ]
     },
     "K4os.Compression.LZ4/1.3.8": {
@@ -1867,29 +1908,119 @@
         "zstdsharp.port.0.8.0.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "ZXing.Net/0.16.9": {
+      "sha512": "7WaVMHklpT3Ye2ragqRIwlFRsb6kOk63BOGADV0fan3ulVfGLUYkDi5yNUsZS/7FVNkWbtHAlDLmu4WnHGfqvQ==",
+      "type": "package",
+      "path": "zxing.net/0.16.9",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/native/zxing.XML",
+        "lib/native/zxing.pri",
+        "lib/native/zxing.winmd",
+        "lib/net20-cf/zxing.ce2.0.dll",
+        "lib/net20-cf/zxing.ce2.0.xml",
+        "lib/net20/zxing.XML",
+        "lib/net20/zxing.dll",
+        "lib/net35-cf/zxing.ce3.5.dll",
+        "lib/net35-cf/zxing.ce3.5.xml",
+        "lib/net35/zxing.XML",
+        "lib/net35/zxing.dll",
+        "lib/net40/zxing.XML",
+        "lib/net40/zxing.dll",
+        "lib/net40/zxing.presentation.XML",
+        "lib/net40/zxing.presentation.dll",
+        "lib/net45/zxing.XML",
+        "lib/net45/zxing.dll",
+        "lib/net45/zxing.presentation.XML",
+        "lib/net45/zxing.presentation.dll",
+        "lib/net461/zxing.XML",
+        "lib/net461/zxing.dll",
+        "lib/net461/zxing.presentation.XML",
+        "lib/net461/zxing.presentation.dll",
+        "lib/net47/zxing.XML",
+        "lib/net47/zxing.dll",
+        "lib/net47/zxing.presentation.XML",
+        "lib/net47/zxing.presentation.dll",
+        "lib/net48/zxing.XML",
+        "lib/net48/zxing.dll",
+        "lib/net48/zxing.presentation.XML",
+        "lib/net48/zxing.presentation.dll",
+        "lib/net5.0/zxing.XML",
+        "lib/net5.0/zxing.dll",
+        "lib/net6.0/zxing.XML",
+        "lib/net6.0/zxing.dll",
+        "lib/net7.0/zxing.XML",
+        "lib/net7.0/zxing.dll",
+        "lib/netcoreapp3.0/zxing.dll",
+        "lib/netcoreapp3.0/zxing.xml",
+        "lib/netcoreapp3.1/zxing.dll",
+        "lib/netcoreapp3.1/zxing.xml",
+        "lib/netstandard1.0/zxing.dll",
+        "lib/netstandard1.0/zxing.xml",
+        "lib/netstandard1.1/zxing.dll",
+        "lib/netstandard1.1/zxing.xml",
+        "lib/netstandard1.3/zxing.dll",
+        "lib/netstandard1.3/zxing.xml",
+        "lib/netstandard2.0/zxing.dll",
+        "lib/netstandard2.0/zxing.xml",
+        "lib/netstandard2.1/zxing.dll",
+        "lib/netstandard2.1/zxing.xml",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.XML",
+        "lib/portable-win+net40+sl4+sl5+wp7+wp71+wp8/zxing.portable.dll",
+        "lib/sl3-wp/zxing.wp7.0.XML",
+        "lib/sl3-wp/zxing.wp7.0.dll",
+        "lib/sl4-wp71/zxing.wp7.1.XML",
+        "lib/sl4-wp71/zxing.wp7.1.dll",
+        "lib/sl4/zxing.sl4.XML",
+        "lib/sl4/zxing.sl4.dll",
+        "lib/sl5/zxing.sl5.XML",
+        "lib/sl5/zxing.sl5.dll",
+        "lib/uap10/zxing.dll",
+        "lib/uap10/zxing.pri",
+        "lib/uap10/zxing.xml",
+        "lib/windows8-managed/zxing.winrt.XML",
+        "lib/windows8-managed/zxing.winrt.dll",
+        "lib/windows8/zxing.XML",
+        "lib/windows8/zxing.pri",
+        "lib/windows8/zxing.winmd",
+        "lib/wp8/zxing.wp8.0.XML",
+        "lib/wp8/zxing.wp8.0.dll",
+        "logo.jpg",
+        "zxing.net.0.16.9.nupkg.sha512",
+        "zxing.net.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "MySql.Data >= 9.1.0",
       "System.Data.OleDb >= 9.0.0",
-      "System.Data.SqlClient >= 4.9.0"
+      "System.Data.SqlClient >= 4.9.0",
+      "ZXing.Net >= 0.16.9",
+      "iTextSharp >= 5.5.13.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\USER\\.nuget\\packages\\": {}
+    "C:\\Users\\azfaj\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj",
+      "projectUniqueName": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj",
       "projectName": "Presentacion_e_inicio_de_sesion",
-      "projectPath": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj",
-      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\obj\\",
+      "projectPath": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj",
+      "packagesPath": "C:\\Users\\azfaj\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\azfaj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1913,8 +2044,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
-      }
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0-windows7.0": {
@@ -1931,6 +2063,14 @@
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.9.0, )"
+          },
+          "ZXing.Net": {
+            "target": "Package",
+            "version": "[0.16.9, )"
+          },
+          "iTextSharp": {
+            "target": "Package",
+            "version": "[5.5.13.4, )"
           }
         },
         "imports": [
@@ -1952,8 +2092,30 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"System.Text.Json\" 8.0.4 tiene una vulnerabilidad de gravedad alta conocida, https://github.com/advisories/GHSA-8g4q-xg66-9fp4",
+      "libraryId": "System.Text.Json",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"iTextSharp 5.5.13.4\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "iTextSharp",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

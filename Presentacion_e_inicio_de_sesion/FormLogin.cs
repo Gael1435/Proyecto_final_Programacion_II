@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
 
 using System.Data.SqlClient;
 using MySql.Data.MySqlClient; // libreria para trabajar con la base de datos
@@ -19,6 +20,7 @@ namespace Presentacion_e_inicio_de_sesion
         public formLogin()
         {
             InitializeComponent();
+
         }
 
         MySqlConnection conexion = new MySqlConnection();
@@ -44,7 +46,12 @@ namespace Presentacion_e_inicio_de_sesion
             }
         }
 
-        private void formLogin_Load(object sender, EventArgs e) { }
+        private void formLogin_Load(object sender, EventArgs e) {
+            timer1.Start();
+        }
+
+
+
 
         private void btnEntrar_Click(object sender, EventArgs e)
         {
@@ -221,6 +228,20 @@ namespace Presentacion_e_inicio_de_sesion
             conexion.Close();
         }
 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            string fecha = DateTime.Now.ToString("D", new CultureInfo("es-ES")); // "D" para formato de fecha
+
+            // Poner la primera letra en mayuscula en la fecha
+            fecha = char.ToUpper(fecha[0]) + fecha.Substring(1);
+
+            // Obtener la hora actual
+            string hora = DateTime.Now.ToString("HH:mm:ss");
+
+            // Actualizar el Label Fecha con la fecha y el Label Hora con la hora
+            lblFecha.Text = fecha;
+            lblHora.Text = hora;
+        }
     }
 }
 

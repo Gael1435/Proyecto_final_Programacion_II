@@ -1,41 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\",
+  "WorkspaceRootPath": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\azfaj\\onedrive\\escritorio\\poo\\presentacion_e_inicio_de_sesion\\presentacion_e_inicio_de_sesion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\azfaj\\onedrive\\escritorio\\poo\\presentacion_e_inicio_de_sesion\\presentacion_e_inicio_de_sesion\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\azfaj\\onedrive\\escritorio\\poo\\presentacion_e_inicio_de_sesion\\presentacion_e_inicio_de_sesion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\azfaj\\onedrive\\escritorio\\poo\\presentacion_e_inicio_de_sesion\\presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\azfaj\\onedrive\\escritorio\\poo\\presentacion_e_inicio_de_sesion\\presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\azfaj\\onedrive\\escritorio\\poo\\presentacion_e_inicio_de_sesion\\presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\azfaj\\onedrive\\escritorio\\poo\\presentacion_e_inicio_de_sesion\\presentacion_e_inicio_de_sesion\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formlogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\azfaj\\onedrive\\escritorio\\poo\\presentacion_e_inicio_de_sesion\\presentacion_e_inicio_de_sesion\\backgroundimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\backgroundimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\backgroundimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\azfaj\\onedrive\\escritorio\\poo\\presentacion_e_inicio_de_sesion\\presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|c:\\users\\user\\documents\\proyecto_final_programacion_ii\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -62,24 +62,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormLogin.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormLogin.Designer.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormLogin.Designer.cs",
-              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormLogin.Designer.cs",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormLogin.Designer.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAewG8AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T21:47:38.811Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FormLogin.cs",
-              "DocumentMoniker": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormLogin.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormLogin.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormLogin.cs",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormLogin.cs",
               "ViewState": "AgIAAKgAAAAAAAAAAAA9wLoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -88,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
               "ViewState": "AgIAAOMBAAAAAAAAAAAewPsBAAA5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -101,47 +88,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FormPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T21:42:23.067Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormPago.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPago.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPago.cs",
-              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPago.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPago.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T21:42:19.286Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormAdmin.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormAdmin.cs",
-              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormAdmin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormAdmin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T21:42:10.95Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "FormLogin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormLogin.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormLogin.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormLogin.cs",
-              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormLogin.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormLogin.cs [Dise\u00F1o]",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormLogin.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T21:35:56.008Z",
@@ -151,27 +102,72 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "BackgroundImage.cs",
-              "DocumentMoniker": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\BackgroundImage.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\BackgroundImage.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\BackgroundImage.cs",
-              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\BackgroundImage.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\BackgroundImage.cs",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\BackgroundImage.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAowCAAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T01:31:32.196Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-14T01:31:32.196Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "FormPago.cs",
-              "DocumentMoniker": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPago.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPago.cs",
-              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPago.cs",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPago.cs",
               "ViewState": "AgIAALMAAAAAAAAAAAAhwL4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T01:07:21.865Z",
+              "WhenOpened": "2024-12-12T01:07:21.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
+              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:42:23.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormPago.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPago.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:42:19.286Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormLogin.Designer.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormLogin.Designer.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormLogin.Designer.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAewG8AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:47:38.811Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FormAdmin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\USER\\Documents\\Proyecto_final_Programacion_II\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormAdmin.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormAdmin.cs",
+              "ToolTip": "C:\\Users\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormAdmin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\azfaj\\OneDrive\\Escritorio\\POO\\Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion\\FormAdmin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:42:10.95Z"
             }
           ]
         }

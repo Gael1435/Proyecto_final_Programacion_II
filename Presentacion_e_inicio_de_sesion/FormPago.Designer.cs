@@ -135,6 +135,7 @@
             // 
             gbcredito_debito.Controls.Add(bttarjeta);
             gbcredito_debito.Controls.Add(txtExpiracion);
+            gbcredito_debito.Controls.Add(txtnumTarjeta);
             gbcredito_debito.Controls.Add(txtCVC);
             gbcredito_debito.Controls.Add(txtNombre);
             gbcredito_debito.Location = new Point(272, 27);
@@ -194,8 +195,7 @@
             // 
             gbEfectivo.Controls.Add(btefectivo);
             gbEfectivo.Controls.Add(txtPago);
-            gbEfectivo.Controls.Add(txtnumTarjeta);
-            gbEfectivo.Location = new Point(272, 27);
+            gbEfectivo.Location = new Point(272, 31);
             gbEfectivo.Name = "gbEfectivo";
             gbEfectivo.Size = new Size(334, 380);
             gbEfectivo.TabIndex = 5;
@@ -219,7 +219,7 @@
             // txtPago
             // 
             txtPago.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtPago.Location = new Point(48, 39);
+            txtPago.Location = new Point(48, 92);
             txtPago.Margin = new Padding(3, 2, 3, 2);
             txtPago.Name = "txtPago";
             txtPago.PlaceholderText = "Con cuanto va a pagar";
@@ -230,7 +230,7 @@
             // txtnumTarjeta
             // 
             txtnumTarjeta.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtnumTarjeta.Location = new Point(48, 39);
+            txtnumTarjeta.Location = new Point(54, 78);
             txtnumTarjeta.Margin = new Padding(3, 2, 3, 2);
             txtnumTarjeta.Name = "txtnumTarjeta";
             txtnumTarjeta.PlaceholderText = "Num de tarjeta";

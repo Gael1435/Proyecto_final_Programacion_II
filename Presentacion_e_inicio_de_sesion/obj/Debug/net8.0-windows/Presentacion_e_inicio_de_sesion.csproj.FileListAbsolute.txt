@@ -116,7 +116,6 @@ C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programaci
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\brownies.png
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\defaultImage.png
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\ImgDesc_2.png
-C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\Logo.jpg
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\macarrones.png
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\minimizar-signo.png
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\pastel.png
@@ -143,7 +142,6 @@ C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programaci
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.csproj.AssemblyReference.cache
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.formPresentacion.resources
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.formLogin.resources
-C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.Form3.resources
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.Administrador.resources
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.Properties.Resources.resources
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.csproj.GenerateResource.cache
@@ -158,7 +156,6 @@ C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programaci
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.pdb
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.genruntimeconfig.cache
 C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\ref\Presentacion_e_inicio_de_sesion.dll
-C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.Form5.resources
 D:\Visual Studio Proyectos\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.Form5.resources
 D:\Visual Studio Proyectos\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\Croissant.png
 D:\Visual Studio Proyectos\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\Galletas.png
@@ -252,3 +249,9 @@ C:\Users\azfaj\OneDrive\Escritorio\POO\Presentacion_e_inicio_de_sesion\Presentac
 C:\Users\azfaj\OneDrive\Escritorio\POO\Presentacion_e_inicio_de_sesion\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.FormPrincipal.resources
 C:\Users\azfaj\OneDrive\Escritorio\POO\Presentacion_e_inicio_de_sesion\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\Logol.jpg
 C:\Users\azfaj\OneDrive\Escritorio\POO\Presentacion_e_inicio_de_sesion\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\zxing.dll
+C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\Resources\Logol.jpg
+C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\itextsharp.dll
+C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\bin\Debug\net8.0-windows\zxing.dll
+C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.FormPago.resources
+C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.FormPrincipal.resources
+C:\Users\USER\Documents\Proyecto_final_Programacion_II\Proyecto_final_Programacion_II\Presentacion_e_inicio_de_sesion\obj\Debug\net8.0-windows\Presentacion_e_inicio_de_sesion.FormTicket.resources

@@ -14,6 +14,7 @@ using ZXing;
 using System.Drawing;
 using ZXing.QrCode;
 using System.Runtime.InteropServices;
+using System.Globalization;
 
 namespace Presentacion_e_inicio_de_sesion
 {
@@ -42,6 +43,7 @@ namespace Presentacion_e_inicio_de_sesion
         {
             InitializeComponent();
             ConfigurarImagenDeFondo();
+    
 
             // Mostrar la información general del ticket
             lblNombreUsuario.Text = nombreUsuario;
@@ -209,5 +211,7 @@ namespace Presentacion_e_inicio_de_sesion
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
+
+      
     }
 }

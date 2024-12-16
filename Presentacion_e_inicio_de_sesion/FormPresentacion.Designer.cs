@@ -119,7 +119,6 @@
             lblHora.Size = new Size(72, 23);
             lblHora.TabIndex = 5;
             lblHora.Text = "00:00:00";
-            lblHora.Click += lblHora_Click;
             // 
             // lblGael
             // 

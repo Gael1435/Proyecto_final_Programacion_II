@@ -6,7 +6,6 @@
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
@@ -28,18 +27,22 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(formLogin));
             txtboxUsuario = new TextBox();
             txtboxContra = new TextBox();
             btnEntrar = new Button();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
+            lblHora = new Label();
+            lblFecha = new Label();
             pnlLinea = new Panel();
             panel2 = new Panel();
             label1 = new Label();
             btnCerrar = new PictureBox();
             btnMinimizar = new PictureBox();
             lblInvitado = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btnCerrar).BeginInit();
@@ -104,13 +107,37 @@
             // panel1
             // 
             panel1.BackColor = Color.FromArgb(248, 187, 208);
+            panel1.Controls.Add(lblHora);
             panel1.Controls.Add(pictureBox1);
+            panel1.Controls.Add(lblFecha);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
             panel1.Name = "panel1";
             panel1.Size = new Size(250, 330);
             panel1.TabIndex = 7;
             panel1.MouseDown += panel1_MouseDown;
+            // 
+            // lblHora
+            // 
+            lblHora.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblHora.AutoSize = true;
+            lblHora.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblHora.Location = new Point(79, 289);
+            lblHora.Name = "lblHora";
+            lblHora.Size = new Size(56, 17);
+            lblHora.TabIndex = 15;
+            lblHora.Text = "00:00:00";
+            // 
+            // lblFecha
+            // 
+            lblFecha.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Segoe UI", 9.75F, FontStyle.Underline);
+            lblFecha.Location = new Point(12, 304);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(209, 17);
+            lblFecha.TabIndex = 14;
+            lblFecha.Text = "Sabado, 14 de diciembre del 2024";
             // 
             // pnlLinea
             // 
@@ -164,6 +191,7 @@
             // 
             // lblInvitado
             // 
+            lblInvitado.AutoSize = true;
             lblInvitado.BackColor = Color.WhiteSmoke;
             lblInvitado.Cursor = Cursors.Hand;
             lblInvitado.Font = new Font("Segoe UI", 9.75F, FontStyle.Italic | FontStyle.Underline, GraphicsUnit.Point, 0);
@@ -174,6 +202,12 @@
             lblInvitado.TabIndex = 13;
             lblInvitado.Text = "Ingresar como Invitado?";
             lblInvitado.Click += lblInvitado_Click;
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
             // 
             // formLogin
             // 
@@ -200,6 +234,7 @@
             MouseDown += formLogin_MouseDown;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)btnCerrar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
             ResumeLayout(false);
@@ -218,5 +253,8 @@
         private PictureBox btnCerrar;
         private PictureBox btnMinimizar;
         private Label lblInvitado;
+        private Label lblHora;
+        private Label lblFecha;
+        public System.Windows.Forms.Timer timer1;
     }
 }

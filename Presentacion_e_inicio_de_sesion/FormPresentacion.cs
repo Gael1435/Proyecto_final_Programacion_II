@@ -9,11 +9,7 @@ namespace Presentacion_e_inicio_de_sesion
             InitializeComponent();
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
+     
         private void Form1_Load(object sender, EventArgs e)
         {
             timer1.Start(); //Inicia el timer cuando el formulario cargue 
@@ -44,9 +40,5 @@ namespace Presentacion_e_inicio_de_sesion
 
         }
 
-        private void lblHora_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

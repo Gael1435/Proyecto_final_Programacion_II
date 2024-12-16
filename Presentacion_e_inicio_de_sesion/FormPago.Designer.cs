@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             rdCredito = new RadioButton();
             rdDebito = new RadioButton();
             groupBox1 = new GroupBox();
@@ -55,6 +56,9 @@
             btnMostrarTicket = new Button();
             btnRegresar = new Button();
             panel1 = new Panel();
+            lblHora = new Label();
+            lblFecha = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             groupBox1.SuspendLayout();
             gbcredito_debito.SuspendLayout();
             gbEfectivo.SuspendLayout();
@@ -349,12 +353,42 @@
             panel1.TabIndex = 35;
             panel1.MouseDown += panel1_MouseDown;
             // 
+            // lblHora
+            // 
+            lblHora.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblHora.AutoSize = true;
+            lblHora.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblHora.Location = new Point(411, 455);
+            lblHora.Name = "lblHora";
+            lblHora.Size = new Size(56, 17);
+            lblHora.TabIndex = 37;
+            lblHora.Text = "00:00:00";
+            // 
+            // lblFecha
+            // 
+            lblFecha.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Segoe UI", 9.75F, FontStyle.Underline);
+            lblFecha.Location = new Point(344, 470);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(209, 17);
+            lblFecha.TabIndex = 36;
+            lblFecha.Text = "Sabado, 14 de diciembre del 2024";
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick;
+            // 
             // FormPago
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
             ClientSize = new Size(625, 496);
+            Controls.Add(lblHora);
+            Controls.Add(lblFecha);
             Controls.Add(panel1);
             Controls.Add(btnRegresar);
             Controls.Add(btnMostrarTicket);
@@ -417,5 +451,8 @@
         private Button btnMostrarTicket;
         private Button btnRegresar;
         private Panel panel1;
+        private Label lblHora;
+        private Label lblFecha;
+        private System.Windows.Forms.Timer timer1;
     }
 }

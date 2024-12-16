@@ -11,6 +11,7 @@ using System.Xml.Linq;
 using static System.Net.Mime.MediaTypeNames;
 using System.Windows.Forms.DataVisualization.Charting;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Globalization;
 
 namespace Presentacion_e_inicio_de_sesion
 {
@@ -22,11 +23,12 @@ namespace Presentacion_e_inicio_de_sesion
         bool busqueda = false; // Auxiliar para cambiar el comportamiento del boton de Agregar a Eliminar
         private Conexion conexion = new Conexion();
         private Chart grafico; // Control Chart para el grafico
+
         public Administrador()
         {
             InitializeComponent();
             conexion.getConexion();
-
+    
             for (int i = 0; i < imageList1.Images.Count; i++)
             {
                 // Genera el diccionario en base a los nombres de las imagenes
@@ -213,7 +215,7 @@ namespace Presentacion_e_inicio_de_sesion
 
         private void Form4_Load(object sender, EventArgs e)
         {
-
+            timer1.Start();
         }
 
         private void refrescar() // Usada para refrescar la lista de productos activamente de forma continua
@@ -295,6 +297,22 @@ namespace Presentacion_e_inicio_de_sesion
         private void label1_Click(object sender, EventArgs e)
         {
 
+        }
+
+
+        private void timer1_Tick_1(object sender, EventArgs e)
+        {
+            string fecha = DateTime.Now.ToString("D", new CultureInfo("es-ES")); // "D" para formato de fecha
+
+            // Poner la primera letra en mayuscula en la fecha
+            fecha = char.ToUpper(fecha[0]) + fecha.Substring(1);
+
+            // Obtener la hora actual
+            string hora = DateTime.Now.ToString("HH:mm:ss");
+
+            // Actualizar el Label Fecha con la fecha y el Label Hora con la hora
+            lblFecha.Text = fecha;
+            lblHora.Text = hora;
         }
     }
 }

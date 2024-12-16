@@ -7,6 +7,7 @@
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
@@ -57,6 +58,9 @@
             imageList1 = new ImageList(components);
             logout = new Button();
             Tartana = new Label();
+            lblHora = new Label();
+            lblFecha = new Label();
+            timer1 = new System.Windows.Forms.Timer(components);
             ((System.ComponentModel.ISupportInitialize)imagen).BeginInit();
             SuspendLayout();
             // 
@@ -369,12 +373,42 @@
             Tartana.TabIndex = 26;
             Tartana.Text = "Tartana";
             // 
+            // lblHora
+            // 
+            lblHora.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblHora.AutoSize = true;
+            lblHora.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            lblHora.Location = new Point(1083, 565);
+            lblHora.Name = "lblHora";
+            lblHora.Size = new Size(56, 17);
+            lblHora.TabIndex = 28;
+            lblHora.Text = "00:00:00";
+            // 
+            // lblFecha
+            // 
+            lblFecha.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            lblFecha.AutoSize = true;
+            lblFecha.Font = new Font("Segoe UI", 9.75F, FontStyle.Underline);
+            lblFecha.Location = new Point(1016, 580);
+            lblFecha.Name = "lblFecha";
+            lblFecha.Size = new Size(209, 17);
+            lblFecha.TabIndex = 27;
+            lblFecha.Text = "Sabado, 14 de diciembre del 2024";
+            // 
+            // timer1
+            // 
+            timer1.Enabled = true;
+            timer1.Interval = 1000;
+            timer1.Tick += timer1_Tick_1;
+            // 
             // Administrador
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.AppWorkspace;
             ClientSize = new Size(1237, 606);
+            Controls.Add(lblHora);
+            Controls.Add(lblFecha);
             Controls.Add(Tartana);
             Controls.Add(logout);
             Controls.Add(listProductos);
@@ -439,5 +473,8 @@
         private ImageList imageList1;
         private Button logout;
         private Label Tartana;
+        private Label lblHora;
+        private Label lblFecha;
+        private System.Windows.Forms.Timer timer1;
     }
 }

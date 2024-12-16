@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -29,6 +30,7 @@ namespace Presentacion_e_inicio_de_sesion
 
         private void Form5_Load(object sender, EventArgs e)
         {
+            timer1.Start();
             btnMostrarTicket.Enabled = false;
             // Mostrar los detalles de la compra
             MostrarDetallesCompra();
@@ -147,6 +149,7 @@ namespace Presentacion_e_inicio_de_sesion
                 confirmado = true;
                 btnMostrarTicket.Enabled = true;
                 cambio = pago - Convert.ToDecimal(totalCompra);
+                MessageBox.Show("Su cambio es de $" + cambio);
                 ActualizarUsuario(totalCompra);
                 mostrarTicket();
                 LimpiarCamposEfectivo();
@@ -200,6 +203,21 @@ namespace Presentacion_e_inicio_de_sesion
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            string fecha = DateTime.Now.ToString("D", new CultureInfo("es-ES")); // "D" para formato de fecha
+
+            // Poner la primera letra en mayuscula en la fecha
+            fecha = char.ToUpper(fecha[0]) + fecha.Substring(1);
+
+            // Obtener la hora actual
+            string hora = DateTime.Now.ToString("HH:mm:ss");
+
+            // Actualizar el Label Fecha con la fecha y el Label Hora con la hora
+            lblFecha.Text = fecha;
+            lblHora.Text = hora;
         }
 
         /// Codigo para arrastrar la ventana ***IGNORAR

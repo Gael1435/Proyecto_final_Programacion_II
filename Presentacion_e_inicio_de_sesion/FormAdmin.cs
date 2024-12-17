@@ -28,7 +28,7 @@ namespace Presentacion_e_inicio_de_sesion
         {
             InitializeComponent();
             conexion.getConexion();
-    
+
             for (int i = 0; i < imageList1.Images.Count; i++)
             {
                 // Genera el diccionario en base a los nombres de las imagenes
@@ -313,6 +313,16 @@ namespace Presentacion_e_inicio_de_sesion
             // Actualizar el Label Fecha con la fecha y el Label Hora con la hora
             lblFecha.Text = fecha;
             lblHora.Text = hora;
+        }
+
+        private void imagen_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listProductos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -29,7 +29,7 @@ namespace Presentacion_e_inicio_de_sesion
         List<Productos> productos = new List<Productos>(); //genera la lista vacia de productos
         private List<NumericUpDown> listaNumeros = new List<NumericUpDown>(); //para guardar los datos de los NumericUpDown
         private double totalCompra = 0.00;
-        static public bool logout = false; // Para cerrar desde otros form
+        static public bool logout = false, compraExitosa = false; // Para cerrar desde otros form
         private string nombreUsuario;
         bool admin = false;
         bool bandera = false; //confirma si se realizo la compra
@@ -49,7 +49,6 @@ namespace Presentacion_e_inicio_de_sesion
                 // Genera el diccionario en base a los nombres de las imagenes
                 string key = imageList1.Images.Keys[i];
                 Diccionario[key] = i;
-
             }
         }
 
@@ -88,6 +87,7 @@ namespace Presentacion_e_inicio_de_sesion
         private void Form3_Load(object sender, EventArgs e)
         {
             generarlLista();
+
         }
 
         private void generarlLista()
@@ -197,6 +197,19 @@ namespace Presentacion_e_inicio_de_sesion
                     {
                         this.Controls.Add(numCantidad);
                         listaNumeros.Add(numCantidad);
+                        if(producto.Existencias == 0)
+                        {
+                            numCantidad.Enabled = false;
+                            Label Agotado = new Label
+                            {
+                                Text = "Agotado!!!",
+                                AutoSize = true
+                            };
+                            Agotado.Location = new Point(
+                            inicioX + (columna * espHor) + 63,
+                            inicioY + (fila * espVer) + 240);
+                            this.Controls.Add(Agotado);
+                        }
                     }
 
                     btn.BringToFront();
@@ -278,10 +291,9 @@ namespace Presentacion_e_inicio_de_sesion
                     Image = (System.Drawing.Image)Properties.Resources.ResourceManager.GetObject("Logo"),
                     Size = new Size(626, 511),
                     SizeMode = PictureBoxSizeMode.StretchImage,
-
                 };
 
-                pictureBoxLogo.Location = new Point(1531, 258);
+                pictureBoxLogo.Location = new Point(1185, 94);
 
                 this.Controls.Add(pictureBoxLogo);
                 pictureBoxLogo.BringToFront();
@@ -388,6 +400,7 @@ namespace Presentacion_e_inicio_de_sesion
                 totalCompra += Convert.ToDouble(item.SubItems[3].Text.Substring(1)); // Quitar el símbolo "$" y sumar
             }
             lbl_total.Text = "Total: $" + totalCompra.ToString("F2");
+
         }
         private void ActualizarYRecargarLista()
         {
@@ -443,7 +456,12 @@ namespace Presentacion_e_inicio_de_sesion
             f5.ShowDialog();
             this.Show();
 
-            ActualizarDatos();
+            if (compraExitosa)
+            {
+                ActualizarDatos();
+                compraExitosa = false;
+                
+            }
             ActualizarYRecargarLista();
 
             foreach (NumericUpDown numCantidad in listaNumeros)
@@ -533,9 +551,11 @@ namespace Presentacion_e_inicio_de_sesion
             timer1.Start();
         }
 
+
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }
+
     }
 }

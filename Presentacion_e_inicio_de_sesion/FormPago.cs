@@ -19,7 +19,6 @@ namespace Presentacion_e_inicio_de_sesion
     {
         private string nombreusuario;
         private List<DetalleCompra> detallesCompra;
-
         // Constructor que recibe detalles de la compra
         public FormPago(string nombreUsuario, List<DetalleCompra> detallesCompra)
         {
@@ -123,6 +122,7 @@ namespace Presentacion_e_inicio_de_sesion
                     mostrarTicket();
                     LimpiarCamposTarjeta();
                     LimpiarLabels();
+                    FormPrincipal.compraExitosa = true;
                 }
                 else
                 {
@@ -156,6 +156,7 @@ namespace Presentacion_e_inicio_de_sesion
                 mostrarTicket();
                 LimpiarCamposEfectivo();
                 LimpiarLabels();
+                FormPrincipal.compraExitosa = true;
             }
         }
 
@@ -186,7 +187,8 @@ namespace Presentacion_e_inicio_de_sesion
 
             // Crear el formulario del ticket y mostrarlo
             FormTicket formTicket = new FormTicket(nombreusuario, DateTime.Now, totalCompra, detallesCompra);
-            formTicket.Show();
+            formTicket.ShowDialog();
+            this.Close();
         }
 
 
@@ -220,6 +222,16 @@ namespace Presentacion_e_inicio_de_sesion
             // Actualizar el Label Fecha con la fecha y el Label Hora con la hora
             lblFecha.Text = fecha;
             lblHora.Text = hora;
+        }
+
+        private void gbEfectivo_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rdDebito_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
 
         /// Codigo para arrastrar la ventana ***IGNORAR

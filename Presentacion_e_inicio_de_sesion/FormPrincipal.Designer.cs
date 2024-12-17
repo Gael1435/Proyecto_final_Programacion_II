@@ -31,6 +31,8 @@
             components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             panel6 = new Panel();
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
             btnMinimizar = new PictureBox();
             button1 = new Button();
             label6 = new Label();
@@ -48,6 +50,7 @@
             lblFecha = new Label();
             timer1 = new System.Windows.Forms.Timer(components);
             panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).BeginInit();
             SuspendLayout();
             // 
@@ -55,6 +58,8 @@
             // 
             panel6.AutoSizeMode = AutoSizeMode.GrowAndShrink;
             panel6.BackColor = Color.FromArgb(248, 187, 208);
+            panel6.Controls.Add(pictureBox1);
+            panel6.Controls.Add(label1);
             panel6.Controls.Add(btnMinimizar);
             panel6.Controls.Add(button1);
             panel6.Controls.Add(label6);
@@ -62,17 +67,37 @@
             panel6.Location = new Point(0, 0);
             panel6.Margin = new Padding(4, 3, 4, 3);
             panel6.Name = "panel6";
-            panel6.Size = new Size(2224, 67);
+            panel6.Size = new Size(1850, 67);
             panel6.TabIndex = 4;
             panel6.MouseDown += panel6_MouseDown;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Logo;
+            pictureBox1.Location = new Point(690, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(87, 76);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 17;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Square721 BT", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(792, 17);
+            label1.Name = "label1";
+            label1.Size = new Size(161, 36);
+            label1.TabIndex = 16;
+            label1.Text = "Productos";
             // 
             // btnMinimizar
             // 
             btnMinimizar.BackColor = Color.White;
             btnMinimizar.Cursor = Cursors.Hand;
             btnMinimizar.Image = (Image)resources.GetObject("btnMinimizar.Image");
-            btnMinimizar.Location = new Point(1997, 17);
-            btnMinimizar.Margin = new Padding(4, 4, 4, 4);
+            btnMinimizar.Location = new Point(1561, 16);
+            btnMinimizar.Margin = new Padding(4);
             btnMinimizar.Name = "btnMinimizar";
             btnMinimizar.Size = new Size(31, 34);
             btnMinimizar.SizeMode = PictureBoxSizeMode.StretchImage;
@@ -86,7 +111,7 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Yu Gothic Light", 12F);
-            button1.Location = new Point(2047, 13);
+            button1.Location = new Point(1662, 12);
             button1.Margin = new Padding(4, 3, 4, 3);
             button1.Name = "button1";
             button1.Size = new Size(162, 41);
@@ -112,8 +137,8 @@
             btnComprar.Cursor = Cursors.Hand;
             btnComprar.FlatStyle = FlatStyle.Flat;
             btnComprar.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnComprar.Location = new Point(1956, 818);
-            btnComprar.Margin = new Padding(4, 4, 4, 4);
+            btnComprar.Location = new Point(1639, 651);
+            btnComprar.Margin = new Padding(4);
             btnComprar.Name = "btnComprar";
             btnComprar.Size = new Size(168, 83);
             btnComprar.TabIndex = 12;
@@ -125,8 +150,9 @@
             // 
             listView1.BackColor = Color.WhiteSmoke;
             listView1.Columns.AddRange(new ColumnHeader[] { Productos_listas, Cantidad_lista, Costo_lista, Total_lista });
-            listView1.Location = new Point(1531, 258);
-            listView1.Margin = new Padding(4, 4, 4, 4);
+            listView1.ForeColor = Color.Black;
+            listView1.Location = new Point(1185, 94);
+            listView1.Margin = new Padding(4);
             listView1.Name = "listView1";
             listView1.Size = new Size(626, 511);
             listView1.TabIndex = 11;
@@ -137,7 +163,7 @@
             // Productos_listas
             // 
             Productos_listas.Text = "Producto";
-            Productos_listas.Width = 120;
+            Productos_listas.Width = 240;
             // 
             // Cantidad_lista
             // 
@@ -147,7 +173,7 @@
             // Costo_lista
             // 
             Costo_lista.Text = "Costo por unidad";
-            Costo_lista.Width = 120;
+            Costo_lista.Width = 160;
             // 
             // Total_lista
             // 
@@ -159,7 +185,7 @@
             lbl_total.AutoSize = true;
             lbl_total.BackColor = Color.RosyBrown;
             lbl_total.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_total.Location = new Point(1571, 851);
+            lbl_total.Location = new Point(1193, 684);
             lbl_total.Margin = new Padding(4, 0, 4, 0);
             lbl_total.Name = "lbl_total";
             lbl_total.Size = new Size(42, 21);
@@ -184,14 +210,15 @@
             imageList1.Images.SetKeyName(10, "pastel.png");
             imageList1.Images.SetKeyName(11, "payLimon.png");
             imageList1.Images.SetKeyName(12, "Tiramisu.png");
+            imageList1.Images.SetKeyName(13, "Logo.png");
             // 
             // button2
             // 
             button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(1779, 818);
-            button2.Margin = new Padding(4, 4, 4, 4);
+            button2.Location = new Point(1421, 651);
+            button2.Margin = new Padding(4);
             button2.Name = "button2";
             button2.Size = new Size(168, 83);
             button2.TabIndex = 12;
@@ -214,7 +241,7 @@
             lblHora.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblHora.AutoSize = true;
             lblHora.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblHora.Location = new Point(2026, 1071);
+            lblHora.Location = new Point(1734, 782);
             lblHora.Margin = new Padding(4, 0, 4, 0);
             lblHora.Name = "lblHora";
             lblHora.Size = new Size(56, 17);
@@ -226,7 +253,7 @@
             lblFecha.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblFecha.AutoSize = true;
             lblFecha.Font = new Font("Segoe UI", 9.75F, FontStyle.Underline);
-            lblFecha.Location = new Point(1940, 1092);
+            lblFecha.Location = new Point(1505, 782);
             lblFecha.Margin = new Padding(4, 0, 4, 0);
             lblFecha.Name = "lblFecha";
             lblFecha.Size = new Size(209, 17);
@@ -244,23 +271,25 @@
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(2224, 1128);
+            ClientSize = new Size(1850, 820);
+            Controls.Add(listView1);
             Controls.Add(lblHora);
             Controls.Add(lblFecha);
             Controls.Add(lblRestricciones);
             Controls.Add(button2);
             Controls.Add(lbl_total);
-            Controls.Add(listView1);
             Controls.Add(btnComprar);
             Controls.Add(panel6);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 3, 4, 3);
-            MinimumSize = new Size(2224, 1128);
+            MinimumSize = new Size(1850, 820);
             Name = "FormPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pantalla de compras";
             Load += FormPrincipal_Load;
             panel6.ResumeLayout(false);
+            panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -284,5 +313,7 @@
         private Label lblHora;
         private Label lblFecha;
         private System.Windows.Forms.Timer timer1;
+        private Label label1;
+        private PictureBox pictureBox1;
     }
 }

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|i:\\vsc proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|i:\\vsc proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|i:\\vsc proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formpago.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|i:\\vsc proyectos\\proyecto_final_programacion_ii\\presentacion_e_inicio_de_sesion\\formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6770F0C2-1E79-425C-BAA9-7DBF08187174}|Presentacion_e_inicio_de_sesion\\Presentacion_e_inicio_de_sesion.csproj|solutionrelative:presentacion_e_inicio_de_sesion\\formticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,27 +51,75 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormPrincipal.cs",
-              "DocumentMoniker": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
-              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
-              "ToolTip": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs*",
-              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs*",
-              "ViewState": "AgIAAPsAAAAAAAAAAAAawBYBAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T02:51:01.809Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "FormPrincipal.cs [Dise\u00F1o]",
               "DocumentMoniker": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
               "ToolTip": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs [Dise\u00F1o]*",
               "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs [Dise\u00F1o]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-17T02:50:48.2Z",
+              "WhenOpened": "2024-12-17T19:21:30.994Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormTicket.cs",
+              "DocumentMoniker": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormTicket.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormTicket.cs",
+              "ToolTip": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormTicket.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormTicket.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAtwIMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:58:39.964Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormTicket.cs [Dise\u00F1o]",
+              "DocumentMoniker": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormTicket.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormTicket.cs",
+              "ToolTip": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormTicket.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormTicket.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:58:37.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FormPago.cs",
+              "DocumentMoniker": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "ToolTip": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAArwJ4AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:53:53.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FormPago.cs [Dise\u00F1o]",
+              "DocumentMoniker": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPago.cs",
+              "ToolTip": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPago.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPago.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T18:48:29.852Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FormPrincipal.cs",
+              "DocumentMoniker": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
+              "RelativeDocumentMoniker": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs",
+              "ToolTip": "I:\\VSC Proyectos\\Proyecto_final_Programacion_II\\Presentacion_e_inicio_de_sesion\\FormPrincipal.cs*",
+              "RelativeToolTip": "Presentacion_e_inicio_de_sesion\\FormPrincipal.cs*",
+              "ViewState": "AgIAAAUCAAAAAAAAAAAAAF8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-17T02:51:01.809Z",
+              "EditorCaption": ""
             }
           ]
         }

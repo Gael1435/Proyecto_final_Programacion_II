@@ -46,7 +46,8 @@ namespace Presentacion_e_inicio_de_sesion
             }
         }
 
-        private void formLogin_Load(object sender, EventArgs e) {
+        private void formLogin_Load(object sender, EventArgs e)
+        {
             timer1.Start();
         }
 
@@ -241,6 +242,11 @@ namespace Presentacion_e_inicio_de_sesion
             // Actualizar el Label Fecha con la fecha y el Label Hora con la hora
             lblFecha.Text = fecha;
             lblHora.Text = hora;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

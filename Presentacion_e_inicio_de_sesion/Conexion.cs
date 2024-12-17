@@ -152,8 +152,22 @@ namespace Presentacion_e_inicio_de_sesion
                 query = "DELETE FROM productos WHERE ID=" + idBuscar + ";";
 
                 MySqlCommand eliminarRegistro = new MySqlCommand(query, conexion);
-                eliminarRegistro.ExecuteNonQuery();
-                MessageBox.Show("\nProducto Eliminado");
+                DialogResult result = MessageBox.Show(
+                $"\n¿Desea eliminar el producto con ID {idBuscar}?",  // Mensaje del cuadro de diálogo
+                    "Confirmar eliminación",                            // Título del cuadro de diálogo
+                    MessageBoxButtons.YesNo,                           // Botones de Sí y No
+                    MessageBoxIcon.Question                            // Icono de pregunta
+);
+                if (result == DialogResult.Yes)
+                {
+                    eliminarRegistro.ExecuteNonQuery();
+                    MessageBox.Show("\nProducto Eliminado");
+                }
+                else
+                {
+                    // Lógica si el usuario niega (presiona "No")
+                    MessageBox.Show("El producto no ha sido eliminado.", "Operación cancelada", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
             catch (Exception ex)
             {

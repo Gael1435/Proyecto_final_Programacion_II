@@ -43,7 +43,8 @@
             // 
             lblNombreUsuario.AutoSize = true;
             lblNombreUsuario.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblNombreUsuario.Location = new Point(148, 4);
+            lblNombreUsuario.Location = new Point(190, 6);
+            lblNombreUsuario.Margin = new Padding(4, 0, 4, 0);
             lblNombreUsuario.Name = "lblNombreUsuario";
             lblNombreUsuario.Size = new Size(69, 21);
             lblNombreUsuario.TabIndex = 0;
@@ -53,7 +54,8 @@
             // 
             lblFechaHora.AutoSize = true;
             lblFechaHora.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblFechaHora.Location = new Point(232, 539);
+            lblFechaHora.Location = new Point(298, 755);
+            lblFechaHora.Margin = new Padding(4, 0, 4, 0);
             lblFechaHora.Name = "lblFechaHora";
             lblFechaHora.Size = new Size(41, 17);
             lblFechaHora.TabIndex = 1;
@@ -62,18 +64,21 @@
             // panelItems
             // 
             panelItems.Controls.Add(PbLogo);
-            panelItems.Location = new Point(12, 27);
+            panelItems.Location = new Point(15, 38);
+            panelItems.Margin = new Padding(4, 4, 4, 4);
             panelItems.Name = "panelItems";
-            panelItems.Size = new Size(353, 454);
+            panelItems.Size = new Size(454, 636);
             panelItems.TabIndex = 3;
+            panelItems.Paint += panelItems_Paint_1;
             // 
             // PbLogo
             // 
             PbLogo.BackColor = Color.Transparent;
             PbLogo.Image = Properties.Resources.Logo;
-            PbLogo.Location = new Point(37, 126);
+            PbLogo.Location = new Point(48, 176);
+            PbLogo.Margin = new Padding(4, 4, 4, 4);
             PbLogo.Name = "PbLogo";
-            PbLogo.Size = new Size(275, 241);
+            PbLogo.Size = new Size(354, 337);
             PbLogo.SizeMode = PictureBoxSizeMode.StretchImage;
             PbLogo.TabIndex = 0;
             PbLogo.TabStop = false;
@@ -83,9 +88,10 @@
             bntConfirmar.Cursor = Cursors.Hand;
             bntConfirmar.FlatStyle = FlatStyle.Flat;
             bntConfirmar.Font = new Font("Times New Roman", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            bntConfirmar.Location = new Point(12, 503);
+            bntConfirmar.Location = new Point(15, 704);
+            bntConfirmar.Margin = new Padding(4, 4, 4, 4);
             bntConfirmar.Name = "bntConfirmar";
-            bntConfirmar.Size = new Size(99, 33);
+            bntConfirmar.Size = new Size(127, 46);
             bntConfirmar.TabIndex = 4;
             bntConfirmar.Text = "Confirmar";
             bntConfirmar.UseVisualStyleBackColor = true;
@@ -97,22 +103,24 @@
             panel1.Controls.Add(lblNombreUsuario);
             panel1.Dock = DockStyle.Top;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(4, 4, 4, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(376, 25);
+            panel1.Size = new Size(483, 35);
             panel1.TabIndex = 5;
             panel1.MouseDown += panel1_MouseDown;
             // 
             // FormTicket
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(376, 565);
+            ClientSize = new Size(483, 791);
             Controls.Add(panel1);
             Controls.Add(bntConfirmar);
             Controls.Add(panelItems);
             Controls.Add(lblFechaHora);
             FormBorderStyle = FormBorderStyle.None;
+            Margin = new Padding(4, 4, 4, 4);
             Name = "FormTicket";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form6";

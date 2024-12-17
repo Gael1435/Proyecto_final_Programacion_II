@@ -43,7 +43,7 @@ namespace Presentacion_e_inicio_de_sesion
         {
             InitializeComponent();
             ConfigurarImagenDeFondo();
-    
+
 
             // Mostrar la información general del ticket
             lblNombreUsuario.Text = nombreUsuario;
@@ -212,6 +212,9 @@ namespace Presentacion_e_inicio_de_sesion
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-      
+        private void panelItems_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

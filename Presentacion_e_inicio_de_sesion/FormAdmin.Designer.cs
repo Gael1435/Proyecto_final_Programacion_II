@@ -69,7 +69,8 @@
             label1.AutoSize = true;
             label1.BorderStyle = BorderStyle.Fixed3D;
             label1.Font = new Font("Microsoft Sans Serif", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(25, 18);
+            label1.Location = new Point(32, 25);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
             label1.Size = new Size(196, 33);
             label1.TabIndex = 0;
@@ -79,11 +80,11 @@
             // txtId
             // 
             txtId.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtId.Location = new Point(78, 137);
-            txtId.Margin = new Padding(3, 2, 3, 2);
+            txtId.Location = new Point(100, 192);
+            txtId.Margin = new Padding(4, 3, 4, 3);
             txtId.Name = "txtId";
             txtId.PlaceholderText = "00";
-            txtId.Size = new Size(118, 28);
+            txtId.Size = new Size(151, 28);
             txtId.TabIndex = 1;
             txtId.TextAlign = HorizontalAlignment.Center;
             // 
@@ -91,7 +92,8 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.Location = new Point(61, 95);
+            label2.Location = new Point(78, 133);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
             label2.Size = new Size(32, 26);
             label2.TabIndex = 2;
@@ -102,7 +104,8 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label3.Location = new Point(61, 182);
+            label3.Location = new Point(78, 255);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
             label3.Size = new Size(91, 26);
             label3.TabIndex = 3;
@@ -111,11 +114,11 @@
             // txtImg
             // 
             txtImg.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtImg.Location = new Point(41, 227);
-            txtImg.Margin = new Padding(3, 2, 3, 2);
+            txtImg.Location = new Point(53, 318);
+            txtImg.Margin = new Padding(4, 3, 4, 3);
             txtImg.Name = "txtImg";
             txtImg.PlaceholderText = "Imagen.png";
-            txtImg.Size = new Size(195, 28);
+            txtImg.Size = new Size(250, 28);
             txtImg.TabIndex = 4;
             txtImg.TextAlign = HorizontalAlignment.Center;
             txtImg.TextChanged += txtImg_TextChanged;
@@ -125,7 +128,8 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(61, 268);
+            label4.Location = new Point(78, 375);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
             label4.Size = new Size(137, 26);
             label4.TabIndex = 5;
@@ -134,11 +138,11 @@
             // txtDesc
             // 
             txtDesc.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtDesc.Location = new Point(25, 309);
-            txtDesc.Margin = new Padding(3, 2, 3, 2);
+            txtDesc.Location = new Point(32, 433);
+            txtDesc.Margin = new Padding(4, 3, 4, 3);
             txtDesc.Name = "txtDesc";
             txtDesc.PlaceholderText = "Postre";
-            txtDesc.Size = new Size(232, 28);
+            txtDesc.Size = new Size(297, 28);
             txtDesc.TabIndex = 6;
             txtDesc.TextAlign = HorizontalAlignment.Center;
             // 
@@ -146,7 +150,8 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(61, 352);
+            label5.Location = new Point(78, 493);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
             label5.Size = new Size(80, 26);
             label5.TabIndex = 7;
@@ -155,22 +160,22 @@
             // txtPrecio
             // 
             txtPrecio.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtPrecio.Location = new Point(78, 398);
-            txtPrecio.Margin = new Padding(3, 2, 3, 2);
+            txtPrecio.Location = new Point(100, 557);
+            txtPrecio.Margin = new Padding(4, 3, 4, 3);
             txtPrecio.Name = "txtPrecio";
             txtPrecio.PlaceholderText = "$$";
-            txtPrecio.Size = new Size(118, 28);
+            txtPrecio.Size = new Size(151, 28);
             txtPrecio.TabIndex = 8;
             txtPrecio.TextAlign = HorizontalAlignment.Center;
             // 
             // txtExist
             // 
             txtExist.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtExist.Location = new Point(78, 485);
-            txtExist.Margin = new Padding(3, 2, 3, 2);
+            txtExist.Location = new Point(100, 679);
+            txtExist.Margin = new Padding(4, 3, 4, 3);
             txtExist.Name = "txtExist";
             txtExist.PlaceholderText = "00";
-            txtExist.Size = new Size(118, 28);
+            txtExist.Size = new Size(151, 28);
             txtExist.TabIndex = 9;
             txtExist.TextAlign = HorizontalAlignment.Center;
             // 
@@ -178,7 +183,8 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.Location = new Point(61, 442);
+            label6.Location = new Point(78, 619);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
             label6.Size = new Size(134, 26);
             label6.TabIndex = 10;
@@ -188,7 +194,8 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Segoe UI Variable Text Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label7.Location = new Point(760, 200);
+            label7.Location = new Point(977, 280);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
             label7.Size = new Size(123, 32);
             label7.TabIndex = 11;
@@ -197,10 +204,10 @@
             // btnAgregar
             // 
             btnAgregar.Font = new Font("Segoe UI Historic", 16.2F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnAgregar.Location = new Point(324, 486);
-            btnAgregar.Margin = new Padding(3, 2, 3, 2);
+            btnAgregar.Location = new Point(417, 680);
+            btnAgregar.Margin = new Padding(4, 3, 4, 3);
             btnAgregar.Name = "btnAgregar";
-            btnAgregar.Size = new Size(241, 34);
+            btnAgregar.Size = new Size(310, 48);
             btnAgregar.TabIndex = 12;
             btnAgregar.Text = "Agregar";
             btnAgregar.UseVisualStyleBackColor = true;
@@ -209,10 +216,10 @@
             // btnBuscar
             // 
             btnBuscar.Font = new Font("Segoe UI Historic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnBuscar.Location = new Point(459, 441);
-            btnBuscar.Margin = new Padding(3, 2, 3, 2);
+            btnBuscar.Location = new Point(590, 617);
+            btnBuscar.Margin = new Padding(4, 3, 4, 3);
             btnBuscar.Name = "btnBuscar";
-            btnBuscar.Size = new Size(105, 28);
+            btnBuscar.Size = new Size(135, 39);
             btnBuscar.TabIndex = 13;
             btnBuscar.Text = "Buscar";
             btnBuscar.UseVisualStyleBackColor = true;
@@ -221,11 +228,11 @@
             // txtIdBuscar
             // 
             txtIdBuscar.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtIdBuscar.Location = new Point(377, 441);
-            txtIdBuscar.Margin = new Padding(3, 2, 3, 2);
+            txtIdBuscar.Location = new Point(485, 617);
+            txtIdBuscar.Margin = new Padding(4, 3, 4, 3);
             txtIdBuscar.Name = "txtIdBuscar";
             txtIdBuscar.PlaceholderText = "00";
-            txtIdBuscar.Size = new Size(64, 28);
+            txtIdBuscar.Size = new Size(81, 28);
             txtIdBuscar.TabIndex = 14;
             txtIdBuscar.TextAlign = HorizontalAlignment.Center;
             // 
@@ -233,7 +240,8 @@
             // 
             label8.AutoSize = true;
             label8.Font = new Font("Microsoft Sans Serif", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label8.Location = new Point(324, 441);
+            label8.Location = new Point(417, 617);
+            label8.Margin = new Padding(4, 0, 4, 0);
             label8.Name = "label8";
             label8.Size = new Size(35, 29);
             label8.TabIndex = 15;
@@ -243,7 +251,8 @@
             // 
             label9.AutoSize = true;
             label9.Font = new Font("Segoe UI Variable Text Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label9.Location = new Point(708, 505);
+            label9.Location = new Point(910, 707);
+            label9.Margin = new Padding(4, 0, 4, 0);
             label9.Name = "label9";
             label9.Size = new Size(175, 32);
             label9.TabIndex = 16;
@@ -253,7 +262,8 @@
             // 
             label10.AutoSize = true;
             label10.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label10.Location = new Point(394, 126);
+            label10.Location = new Point(507, 176);
+            label10.Margin = new Padding(4, 0, 4, 0);
             label10.Name = "label10";
             label10.Size = new Size(96, 26);
             label10.TabIndex = 17;
@@ -262,11 +272,11 @@
             // txtNombre
             // 
             txtNombre.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtNombre.Location = new Point(324, 165);
-            txtNombre.Margin = new Padding(3, 2, 3, 2);
+            txtNombre.Location = new Point(417, 231);
+            txtNombre.Margin = new Padding(4, 3, 4, 3);
             txtNombre.Name = "txtNombre";
             txtNombre.PlaceholderText = "Nombre";
-            txtNombre.Size = new Size(241, 28);
+            txtNombre.Size = new Size(309, 28);
             txtNombre.TabIndex = 18;
             txtNombre.TextAlign = HorizontalAlignment.Center;
             txtNombre.TextChanged += txtNombre_TextChanged;
@@ -275,7 +285,8 @@
             // 
             ventas.AutoSize = true;
             ventas.Font = new Font("Microsoft Sans Serif", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            ventas.Location = new Point(967, 511);
+            ventas.Location = new Point(1243, 715);
+            ventas.Margin = new Padding(4, 0, 4, 0);
             ventas.Name = "ventas";
             ventas.Size = new Size(38, 26);
             ventas.TabIndex = 21;
@@ -285,7 +296,8 @@
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Segoe UI Variable Text Semibold", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label11.Location = new Point(633, 18);
+            label11.Location = new Point(814, 25);
+            label11.Margin = new Padding(4, 0, 4, 0);
             label11.Name = "label11";
             label11.Size = new Size(91, 32);
             label11.TabIndex = 22;
@@ -294,10 +306,10 @@
             // btnSalir
             // 
             btnSalir.Font = new Font("Segoe UI Historic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnSalir.Location = new Point(1003, 9);
-            btnSalir.Margin = new Padding(3, 2, 3, 2);
+            btnSalir.Location = new Point(1290, 13);
+            btnSalir.Margin = new Padding(4, 3, 4, 3);
             btnSalir.Name = "btnSalir";
-            btnSalir.Size = new Size(108, 41);
+            btnSalir.Size = new Size(139, 57);
             btnSalir.TabIndex = 23;
             btnSalir.Text = "Salir";
             btnSalir.UseVisualStyleBackColor = true;
@@ -307,22 +319,24 @@
             // 
             listProductos.BackColor = SystemColors.InactiveCaption;
             listProductos.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            listProductos.Location = new Point(653, 249);
-            listProductos.Margin = new Padding(3, 2, 3, 2);
+            listProductos.Location = new Point(840, 349);
+            listProductos.Margin = new Padding(4, 3, 4, 3);
             listProductos.Name = "listProductos";
-            listProductos.Size = new Size(447, 245);
+            listProductos.Size = new Size(574, 341);
             listProductos.TabIndex = 24;
             listProductos.UseCompatibleStateImageBehavior = false;
+            listProductos.SelectedIndexChanged += listProductos_SelectedIndexChanged;
             // 
             // imagen
             // 
             imagen.Image = Properties.Resources.Logo;
-            imagen.Location = new Point(332, 227);
-            imagen.Margin = new Padding(3, 2, 3, 2);
+            imagen.Location = new Point(427, 318);
+            imagen.Margin = new Padding(4, 3, 4, 3);
             imagen.Name = "imagen";
-            imagen.Size = new Size(233, 199);
+            imagen.Size = new Size(300, 279);
             imagen.TabIndex = 19;
             imagen.TabStop = false;
+            imagen.Click += imagen_Click;
             // 
             // imageList1
             // 
@@ -351,10 +365,10 @@
             // logout
             // 
             logout.Font = new Font("Segoe UI Historic", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            logout.Location = new Point(878, 9);
-            logout.Margin = new Padding(3, 2, 3, 2);
+            logout.Location = new Point(1129, 13);
+            logout.Margin = new Padding(4, 3, 4, 3);
             logout.Name = "logout";
-            logout.Size = new Size(119, 41);
+            logout.Size = new Size(153, 57);
             logout.TabIndex = 25;
             logout.Text = "Logout";
             logout.UseVisualStyleBackColor = true;
@@ -367,7 +381,8 @@
             Tartana.BorderStyle = BorderStyle.Fixed3D;
             Tartana.Font = new Font("Microsoft Sans Serif", 36F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
             Tartana.ForeColor = Color.FromArgb(128, 128, 255);
-            Tartana.Location = new Point(352, 18);
+            Tartana.Location = new Point(453, 25);
+            Tartana.Margin = new Padding(4, 0, 4, 0);
             Tartana.Name = "Tartana";
             Tartana.Size = new Size(199, 57);
             Tartana.TabIndex = 26;
@@ -378,7 +393,8 @@
             lblHora.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblHora.AutoSize = true;
             lblHora.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblHora.Location = new Point(1083, 565);
+            lblHora.Location = new Point(1392, 791);
+            lblHora.Margin = new Padding(4, 0, 4, 0);
             lblHora.Name = "lblHora";
             lblHora.Size = new Size(56, 17);
             lblHora.TabIndex = 28;
@@ -389,7 +405,8 @@
             lblFecha.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblFecha.AutoSize = true;
             lblFecha.Font = new Font("Segoe UI", 9.75F, FontStyle.Underline);
-            lblFecha.Location = new Point(1016, 580);
+            lblFecha.Location = new Point(1306, 812);
+            lblFecha.Margin = new Padding(4, 0, 4, 0);
             lblFecha.Name = "lblFecha";
             lblFecha.Size = new Size(209, 17);
             lblFecha.TabIndex = 27;
@@ -403,10 +420,10 @@
             // 
             // Administrador
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.AppWorkspace;
-            ClientSize = new Size(1237, 606);
+            BackColor = SystemColors.ActiveCaption;
+            ClientSize = new Size(1590, 848);
             Controls.Add(lblHora);
             Controls.Add(lblFecha);
             Controls.Add(Tartana);
@@ -435,7 +452,7 @@
             Controls.Add(label2);
             Controls.Add(txtId);
             Controls.Add(label1);
-            Margin = new Padding(3, 2, 3, 2);
+            Margin = new Padding(4, 3, 4, 3);
             Name = "Administrador";
             Text = "Panel de Administracion";
             Load += Form4_Load;

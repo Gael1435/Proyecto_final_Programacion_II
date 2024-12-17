@@ -14,11 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Presentacion_e_inicio_de_sesion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dd4feec221e7cff1f4a1d376513a2a3542ae71f7")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4bda3f3dcb1b840c7da27b10a6b9e068f2466fdd")]
->>>>>>> Pulido_y_detalles
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+314486ea9f72bc961a2f4e095e5bb5f5729fc4d2")]
 [assembly: System.Reflection.AssemblyProductAttribute("Presentacion_e_inicio_de_sesion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Presentacion_e_inicio_de_sesion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

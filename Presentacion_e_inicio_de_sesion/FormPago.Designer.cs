@@ -38,12 +38,12 @@
             gbcredito_debito = new GroupBox();
             bttarjeta = new Button();
             txtExpiracion = new TextBox();
+            txtnumTarjeta = new TextBox();
             txtCVC = new TextBox();
             txtNombre = new TextBox();
             gbEfectivo = new GroupBox();
             btefectivo = new Button();
             txtPago = new TextBox();
-            txtnumTarjeta = new TextBox();
             label1 = new Label();
             lblProducto = new Label();
             lblTotal = new Label();
@@ -173,6 +173,17 @@
             txtExpiracion.TabIndex = 22;
             txtExpiracion.TextAlign = HorizontalAlignment.Center;
             // 
+            // txtnumTarjeta
+            // 
+            txtnumTarjeta.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            txtnumTarjeta.Location = new Point(54, 78);
+            txtnumTarjeta.Margin = new Padding(3, 2, 3, 2);
+            txtnumTarjeta.Name = "txtnumTarjeta";
+            txtnumTarjeta.PlaceholderText = "Num de tarjeta";
+            txtnumTarjeta.Size = new Size(215, 28);
+            txtnumTarjeta.TabIndex = 19;
+            txtnumTarjeta.TextAlign = HorizontalAlignment.Center;
+            // 
             // txtCVC
             // 
             txtCVC.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
@@ -230,17 +241,6 @@
             txtPago.Size = new Size(215, 28);
             txtPago.TabIndex = 20;
             txtPago.TextAlign = HorizontalAlignment.Center;
-            // 
-            // txtnumTarjeta
-            // 
-            txtnumTarjeta.Font = new Font("Microsoft Sans Serif", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            txtnumTarjeta.Location = new Point(54, 78);
-            txtnumTarjeta.Margin = new Padding(3, 2, 3, 2);
-            txtnumTarjeta.Name = "txtnumTarjeta";
-            txtnumTarjeta.PlaceholderText = "Num de tarjeta";
-            txtnumTarjeta.Size = new Size(215, 28);
-            txtnumTarjeta.TabIndex = 19;
-            txtnumTarjeta.TextAlign = HorizontalAlignment.Center;
             // 
             // label1
             // 

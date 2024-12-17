@@ -37,6 +37,7 @@ namespace Presentacion_e_inicio_de_sesion
 
             // Calcular el total de la compra sumando los valores de los detalles
             double totalCompra = detallesCompra.Sum(detalle => detalle.Total); // Usamos el Total de cada DetalleCompra
+            totalCompra = totalCompra * 1.06;
 
             lbTotal.Text = "Total = $" + totalCompra.ToString();
             label1.Text = nombreusuario.ToString();
@@ -138,6 +139,7 @@ namespace Presentacion_e_inicio_de_sesion
             bool confirmado = false;
 
             double totalCompra = detallesCompra.Sum(detalle => detalle.Total); // Total calculado de la lista
+            totalCompra = totalCompra * 1.06;
 
             if (pago < Convert.ToDecimal(totalCompra))
             {

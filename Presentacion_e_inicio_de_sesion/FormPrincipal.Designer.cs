@@ -282,7 +282,6 @@
             Controls.Add(panel6);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4, 3, 4, 3);
-            MinimumSize = new Size(1850, 820);
             Name = "FormPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pantalla de compras";

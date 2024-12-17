@@ -23,6 +23,7 @@ using Font = System.Drawing.Font;
 
 namespace Presentacion_e_inicio_de_sesion
 {
+
     public partial class FormPrincipal : Form
     {
         Dictionary<string, int> Diccionario = new Dictionary<string, int>(); // Para usar un diccionario en imagenes
@@ -40,6 +41,8 @@ namespace Presentacion_e_inicio_de_sesion
 
         public FormPrincipal()
         {
+            this.AutoScaleMode = AutoScaleMode.Dpi;
+
             InitializeComponent();
 
             mConexion = new Conexion();
@@ -54,6 +57,8 @@ namespace Presentacion_e_inicio_de_sesion
 
         public FormPrincipal(string nombreUsuario)
         {
+            this.AutoScaleMode = AutoScaleMode.Dpi;
+
             InitializeComponent();
 
             this.nombreUsuario = nombreUsuario;
@@ -70,6 +75,8 @@ namespace Presentacion_e_inicio_de_sesion
 
         public FormPrincipal(string nombreUsuario, bool admin)
         {
+            this.AutoScaleMode = AutoScaleMode.Dpi;
+
             InitializeComponent();
 
             mConexion = new Conexion();
@@ -301,6 +308,8 @@ namespace Presentacion_e_inicio_de_sesion
                 lbl_total.Text = "Tartana";
                 btnComprar.Enabled = false;
                 btnComprar.Text = "Bloqueado";
+                button2.Enabled = false;
+                button2.Text = "Bloqueado";
             }
 
         }

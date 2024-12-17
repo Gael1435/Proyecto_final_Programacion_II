@@ -41,7 +41,7 @@ namespace Presentacion_e_inicio_de_sesion
         public FormPrincipal()
         {
             InitializeComponent();
-         
+
             mConexion = new Conexion();
             this.Load += new EventHandler(Form3_Load);
             for (int i = 0; i < imageList1.Images.Count; i++)
@@ -56,7 +56,7 @@ namespace Presentacion_e_inicio_de_sesion
         public FormPrincipal(string nombreUsuario)
         {
             InitializeComponent();
-      
+
             this.nombreUsuario = nombreUsuario;
             this.esInvitado = nombreUsuario == "Invitado";
             mConexion = new Conexion();
@@ -72,7 +72,7 @@ namespace Presentacion_e_inicio_de_sesion
         public FormPrincipal(string nombreUsuario, bool admin)
         {
             InitializeComponent();
-          
+
             mConexion = new Conexion();
             this.nombreUsuario = nombreUsuario;
             this.admin = admin;
@@ -276,12 +276,12 @@ namespace Presentacion_e_inicio_de_sesion
                 PictureBox pictureBoxLogo = new PictureBox
                 {
                     Image = (System.Drawing.Image)Properties.Resources.ResourceManager.GetObject("Logo"),
-                    Size = new Size(557, 487),
+                    Size = new Size(626, 511),
                     SizeMode = PictureBoxSizeMode.StretchImage,
 
                 };
 
-                pictureBoxLogo.Location = new Point(1191, 184);
+                pictureBoxLogo.Location = new Point(1531, 258);
 
                 this.Controls.Add(pictureBoxLogo);
                 pictureBoxLogo.BringToFront();
@@ -531,6 +531,11 @@ namespace Presentacion_e_inicio_de_sesion
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
             timer1.Start();
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

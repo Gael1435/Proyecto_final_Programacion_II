@@ -60,9 +60,9 @@
             panel6.Controls.Add(label6);
             panel6.Dock = DockStyle.Top;
             panel6.Location = new Point(0, 0);
-            panel6.Margin = new Padding(3, 2, 3, 2);
+            panel6.Margin = new Padding(4, 3, 4, 3);
             panel6.Name = "panel6";
-            panel6.Size = new Size(1730, 48);
+            panel6.Size = new Size(2224, 67);
             panel6.TabIndex = 4;
             panel6.MouseDown += panel6_MouseDown;
             // 
@@ -71,9 +71,10 @@
             btnMinimizar.BackColor = Color.White;
             btnMinimizar.Cursor = Cursors.Hand;
             btnMinimizar.Image = (Image)resources.GetObject("btnMinimizar.Image");
-            btnMinimizar.Location = new Point(1553, 12);
+            btnMinimizar.Location = new Point(1997, 17);
+            btnMinimizar.Margin = new Padding(4, 4, 4, 4);
             btnMinimizar.Name = "btnMinimizar";
-            btnMinimizar.Size = new Size(24, 24);
+            btnMinimizar.Size = new Size(31, 34);
             btnMinimizar.SizeMode = PictureBoxSizeMode.StretchImage;
             btnMinimizar.TabIndex = 15;
             btnMinimizar.TabStop = false;
@@ -85,10 +86,10 @@
             button1.Cursor = Cursors.Hand;
             button1.FlatStyle = FlatStyle.Flat;
             button1.Font = new Font("Yu Gothic Light", 12F);
-            button1.Location = new Point(1592, 9);
-            button1.Margin = new Padding(3, 2, 3, 2);
+            button1.Location = new Point(2047, 13);
+            button1.Margin = new Padding(4, 3, 4, 3);
             button1.Name = "button1";
-            button1.Size = new Size(126, 29);
+            button1.Size = new Size(162, 41);
             button1.TabIndex = 12;
             button1.Text = "Logout";
             button1.UseVisualStyleBackColor = false;
@@ -99,9 +100,10 @@
             label6.BackColor = Color.Transparent;
             label6.Font = new Font("Yu Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label6.ImageAlign = ContentAlignment.BottomCenter;
-            label6.Location = new Point(909, 3);
+            label6.Location = new Point(1169, 4);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(355, 38);
+            label6.Size = new Size(456, 53);
             label6.TabIndex = 5;
             label6.TextAlign = ContentAlignment.MiddleLeft;
             // 
@@ -110,9 +112,10 @@
             btnComprar.Cursor = Cursors.Hand;
             btnComprar.FlatStyle = FlatStyle.Flat;
             btnComprar.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            btnComprar.Location = new Point(1521, 584);
+            btnComprar.Location = new Point(1956, 818);
+            btnComprar.Margin = new Padding(4, 4, 4, 4);
             btnComprar.Name = "btnComprar";
-            btnComprar.Size = new Size(131, 59);
+            btnComprar.Size = new Size(168, 83);
             btnComprar.TabIndex = 12;
             btnComprar.Text = "Comprar";
             btnComprar.UseVisualStyleBackColor = true;
@@ -122,12 +125,14 @@
             // 
             listView1.BackColor = Color.WhiteSmoke;
             listView1.Columns.AddRange(new ColumnHeader[] { Productos_listas, Cantidad_lista, Costo_lista, Total_lista });
-            listView1.Location = new Point(1191, 184);
+            listView1.Location = new Point(1531, 258);
+            listView1.Margin = new Padding(4, 4, 4, 4);
             listView1.Name = "listView1";
-            listView1.Size = new Size(488, 366);
+            listView1.Size = new Size(626, 511);
             listView1.TabIndex = 11;
             listView1.UseCompatibleStateImageBehavior = false;
             listView1.View = View.Details;
+            listView1.SelectedIndexChanged += listView1_SelectedIndexChanged;
             // 
             // Productos_listas
             // 
@@ -154,7 +159,8 @@
             lbl_total.AutoSize = true;
             lbl_total.BackColor = Color.RosyBrown;
             lbl_total.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lbl_total.Location = new Point(1222, 608);
+            lbl_total.Location = new Point(1571, 851);
+            lbl_total.Margin = new Padding(4, 0, 4, 0);
             lbl_total.Name = "lbl_total";
             lbl_total.Size = new Size(42, 21);
             lbl_total.TabIndex = 0;
@@ -184,9 +190,10 @@
             button2.Cursor = Cursors.Hand;
             button2.FlatStyle = FlatStyle.Flat;
             button2.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(1384, 584);
+            button2.Location = new Point(1779, 818);
+            button2.Margin = new Padding(4, 4, 4, 4);
             button2.Name = "button2";
-            button2.Size = new Size(131, 59);
+            button2.Size = new Size(168, 83);
             button2.TabIndex = 12;
             button2.Text = "Borrar seleccion";
             button2.UseVisualStyleBackColor = true;
@@ -196,9 +203,10 @@
             // 
             lblRestricciones.AutoSize = true;
             lblRestricciones.ForeColor = Color.Red;
-            lblRestricciones.Location = new Point(1384, 658);
+            lblRestricciones.Location = new Point(1779, 921);
+            lblRestricciones.Margin = new Padding(4, 0, 4, 0);
             lblRestricciones.Name = "lblRestricciones";
-            lblRestricciones.Size = new Size(0, 15);
+            lblRestricciones.Size = new Size(0, 21);
             lblRestricciones.TabIndex = 14;
             // 
             // lblHora
@@ -206,7 +214,8 @@
             lblHora.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblHora.AutoSize = true;
             lblHora.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblHora.Location = new Point(1576, 765);
+            lblHora.Location = new Point(2026, 1071);
+            lblHora.Margin = new Padding(4, 0, 4, 0);
             lblHora.Name = "lblHora";
             lblHora.Size = new Size(56, 17);
             lblHora.TabIndex = 16;
@@ -217,7 +226,8 @@
             lblFecha.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblFecha.AutoSize = true;
             lblFecha.Font = new Font("Segoe UI", 9.75F, FontStyle.Underline);
-            lblFecha.Location = new Point(1509, 780);
+            lblFecha.Location = new Point(1940, 1092);
+            lblFecha.Margin = new Padding(4, 0, 4, 0);
             lblFecha.Name = "lblFecha";
             lblFecha.Size = new Size(209, 17);
             lblFecha.TabIndex = 15;
@@ -231,10 +241,10 @@
             // 
             // FormPrincipal
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.WhiteSmoke;
-            ClientSize = new Size(1730, 806);
+            ClientSize = new Size(2224, 1128);
             Controls.Add(lblHora);
             Controls.Add(lblFecha);
             Controls.Add(lblRestricciones);
@@ -244,8 +254,8 @@
             Controls.Add(btnComprar);
             Controls.Add(panel6);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(3, 2, 3, 2);
-            MinimumSize = new Size(1730, 806);
+            Margin = new Padding(4, 3, 4, 3);
+            MinimumSize = new Size(2224, 1128);
             Name = "FormPrincipal";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Pantalla de compras";
